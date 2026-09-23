@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Tiantan,Persistence,24,1,0.0,2.190002123825252e-05,0,0,0,False,143,cpu
+Tiantan,Persistence,72,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,168,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,720,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,2160,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,24,1,0.0,3.220001235604286e-05,0,0,0,False,143,cpu
+Tiantan,Seasonal day,72,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,168,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,720,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,2160,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal week,168,1,0.0,1.4499993994832039e-05,0,0,0,False,143,cpu
+Tiantan,Seasonal week,720,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal week,2160,1,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,LightGBM calendar,0,1,0.20321099998545833,0.0017142999859061092,0,94480,6200,False,143,cpu
+Tiantan,LightGBM global,24,1,0.7198397000029217,0.0015611999842803925,0,83741,6200,False,143,cpu
+Tiantan,LightGBM global+local,24,1,0.0,0.0,0,83741,6200,True,143,cpu
+Tiantan,LightGBM global,72,1,0.0,0.0,0,83741,6200,True,143,cpu
+Tiantan,LightGBM global+local,72,1,0.706686699995771,0.001500300015322864,48,83741,6200,False,143,cpu
+Tiantan,LightGBM global,168,1,0.0,0.0,0,83741,6200,True,143,cpu
+Tiantan,LightGBM global+local,168,1,0.6719555000017863,0.001413899997714907,92,83741,6200,False,143,cpu
+Tiantan,LightGBM global,720,1,0.0,0.0,0,83741,6200,True,143,cpu
+Tiantan,LightGBM global+local,720,1,0.6712794999766629,0.0015930999943520874,588,83741,6200,False,143,cpu
+Tiantan,LightGBM global,2160,1,0.0,0.0,0,83741,6200,True,143,cpu
+Tiantan,LightGBM global+local,2160,1,0.7150248999823816,0.0014050000172574073,1861,83741,6200,False,143,cpu
+Tiantan,Persistence,24,6,0.0,1.6200006939470768e-05,0,0,0,False,143,cpu
+Tiantan,Persistence,72,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,168,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,720,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,2160,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,24,6,0.0,2.169999061152339e-05,0,0,0,False,143,cpu
+Tiantan,Seasonal day,72,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,168,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,720,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,2160,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal week,168,6,0.0,2.8400012524798512e-05,0,0,0,False,143,cpu
+Tiantan,Seasonal week,720,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal week,2160,6,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,LightGBM calendar,0,6,0.22827290001441725,0.0015310999879147857,0,94463,6200,False,143,cpu
+Tiantan,LightGBM global,24,6,0.6640384000202175,0.0015232999867293984,0,83266,6200,False,143,cpu
+Tiantan,LightGBM global+local,24,6,0.0,0.0,0,83266,6200,True,143,cpu
+Tiantan,LightGBM global,72,6,0.0,0.0,0,83266,6200,True,143,cpu
+Tiantan,LightGBM global+local,72,6,0.6407307999907061,0.0014731000119354576,43,83266,6200,False,143,cpu
+Tiantan,LightGBM global,168,6,0.0,0.0,0,83266,6200,True,143,cpu
+Tiantan,LightGBM global+local,168,6,0.6263699999835808,0.00151269999332726,86,83266,6200,False,143,cpu
+Tiantan,LightGBM global,720,6,0.0,0.0,0,83266,6200,True,143,cpu
+Tiantan,LightGBM global+local,720,6,0.6908843999844976,0.0016169000009540468,578,83266,6200,False,143,cpu
+Tiantan,LightGBM global,2160,6,0.0,0.0,0,83266,6200,True,143,cpu
+Tiantan,LightGBM global+local,2160,6,0.6527970999886747,0.0014156000106595457,1843,83266,6200,False,143,cpu
+Tiantan,Persistence,24,24,0.0,1.3999990187585354e-05,0,0,0,False,143,cpu
+Tiantan,Persistence,72,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,168,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,720,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Persistence,2160,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,24,24,0.0,1.5600002370774746e-05,0,0,0,False,143,cpu
+Tiantan,Seasonal day,72,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,168,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,720,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal day,2160,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal week,168,24,0.0,9.299983503296971e-06,0,0,0,False,143,cpu
+Tiantan,Seasonal week,720,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,Seasonal week,2160,24,0.0,0.0,0,0,0,True,143,cpu
+Tiantan,LightGBM calendar,0,24,0.20980139999301173,0.0014828999992460012,0,94397,6200,False,143,cpu
+Tiantan,LightGBM global,24,24,0.6476296000182629,0.0018610999977681786,0,82852,6200,False,143,cpu
+Tiantan,LightGBM global+local,24,24,0.0,0.0,0,82852,6200,True,143,cpu
+Tiantan,LightGBM global,72,24,0.0,0.0,0,82852,6200,True,143,cpu
+Tiantan,LightGBM global+local,72,24,0.6591994000191335,0.001461099978769198,25,82852,6200,False,143,cpu
+Tiantan,LightGBM global,168,24,0.0,0.0,0,82852,6200,True,143,cpu
+Tiantan,LightGBM global+local,168,24,0.6201028000214137,0.0013938999909441918,70,82852,6200,False,143,cpu
+Tiantan,LightGBM global,720,24,0.0,0.0,0,82852,6200,True,143,cpu
+Tiantan,LightGBM global+local,720,24,0.638448999990942,0.0014792000001762062,559,82852,6200,False,143,cpu
+Tiantan,LightGBM global,2160,24,0.0,0.0,0,82852,6200,True,143,cpu
+Tiantan,LightGBM global+local,2160,24,0.6397307000006549,0.0014681000029668212,1824,82852,6200,False,143,cpu
+Tiantan,Chronos-2,24,1,0.0,0.4535939000197686,0,0,0,False,143,cuda
+Tiantan,Chronos-2,24,6,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,24,24,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,72,1,0.0,0.21000469999853522,0,0,0,False,143,cuda
+Tiantan,Chronos-2,72,6,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,72,24,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,168,1,0.0,0.2163287000148557,0,0,0,False,143,cuda
+Tiantan,Chronos-2,168,6,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,168,24,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,720,1,0.0,0.3408904999960214,0,0,0,False,143,cuda
+Tiantan,Chronos-2,720,6,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,720,24,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,2160,1,0.0,0.923974300007103,0,0,0,False,143,cuda
+Tiantan,Chronos-2,2160,6,0.0,0.0,0,0,0,True,143,cuda
+Tiantan,Chronos-2,2160,24,0.0,0.0,0,0,0,True,143,cuda

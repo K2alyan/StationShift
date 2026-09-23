@@ -1,0 +1,121 @@
+model,station,origin,horizon,observed,prediction,error,change_24h,tags
+Chronos-2,Aotizhongxin,2017-01-27 23:00:00+08:00,6,713.0,241.38900756835938,-471.6109924316406,704.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Gucheng,2016-12-19 09:00:00+08:00,24,521.0,74.6212387084961,-446.3787612915039,406.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Gucheng,2017-01-02 23:00:00+08:00,24,640.0,208.0419921875,-431.9580078125,408.0,rapid rise; high episode; lag-like forecast
+Chronos-2,Gucheng,2017-01-01 22:00:00+08:00,6,13.0,441.5664367675781,428.5664367675781,-419.0,rapid fall; wind direction change; lag-like forecast
+Chronos-2,Changping,2016-12-19 09:00:00+08:00,24,507.0,111.92677307128906,-395.07322692871094,341.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Changping,2016-12-31 21:00:00+08:00,24,523.0,141.49758911132812,-381.5024108886719,297.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Dongsi,2017-01-02 23:00:00+08:00,24,599.0,219.69424438476562,-379.3057556152344,343.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Changping,2017-01-01 22:00:00+08:00,6,95.0,454.2479553222656,359.2479553222656,-304.0,rapid fall; wind direction change; lag-like forecast
+Chronos-2,Tiantan,2017-01-27 23:00:00+08:00,6,594.0,239.6415557861328,-354.3584442138672,590.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Wanshouxigong,2017-01-02 23:00:00+08:00,24,595.0,247.363037109375,-347.636962890625,287.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Shunyi,2017-01-27 23:00:00+08:00,6,640.0,308.1809997558594,-331.8190002441406,630.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Guanyuan,2016-12-20 10:00:00+08:00,24,408.0,76.48795318603516,-331.51204681396484,150.0,rapid rise; high episode; lag-like forecast
+Chronos-2,Nongzhanguan,2017-01-27 23:00:00+08:00,6,632.0,301.93359375,-330.06640625,625.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Dongsi,2017-01-27 23:00:00+08:00,6,580.0,250.0857696533203,-329.9142303466797,571.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Gucheng,2016-12-20 10:00:00+08:00,24,458.0,132.4713897705078,-325.5286102294922,-135.0,rapid fall; high episode; wind direction change
+Chronos-2,Huairou,2016-12-31 21:00:00+08:00,24,477.0,154.324951171875,-322.675048828125,279.0,rapid rise; high episode; lag-like forecast
+Chronos-2,Shunyi,2017-01-26 22:00:00+08:00,24,405.0,97.32229614257812,-307.6777038574219,398.0,rapid rise; high episode; wind direction change; weather transition; lag-like forecast
+Chronos-2,Dingling,2016-12-20 10:00:00+08:00,24,385.0,80.57669830322266,-304.42330169677734,128.0,rapid rise; high episode; wind direction change; historical gap >=24h; lag-like forecast
+Chronos-2,Wanshouxigong,2017-01-27 23:00:00+08:00,6,621.0,318.5545349121094,-302.4454650878906,616.0,rapid rise; high episode; wind direction change; lag-like forecast
+Chronos-2,Aotizhongxin,2016-12-29 19:00:00+08:00,6,408.0,107.84040832519531,-300.1595916748047,395.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Aotizhongxin,2017-01-27 23:00:00+08:00,6,713.0,197.04065958409856,-515.9593404159015,704.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Gucheng,2017-01-02 23:00:00+08:00,24,640.0,140.05190154622704,-499.94809845377296,408.0,rapid rise; high episode; lag-like forecast
+LightGBM global,Shunyi,2017-01-27 23:00:00+08:00,6,640.0,200.19285049783352,-439.80714950216645,630.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Dongsi,2017-01-02 23:00:00+08:00,24,599.0,164.34899061665917,-434.6510093833408,343.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Changping,2016-12-19 09:00:00+08:00,24,507.0,76.82530383163734,-430.17469616836263,341.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Gucheng,2016-12-19 09:00:00+08:00,24,521.0,138.2607757146519,-382.7392242853481,406.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Tiantan,2017-01-27 23:00:00+08:00,6,594.0,215.27131346172703,-378.728686538273,590.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Wanshouxigong,2017-01-02 23:00:00+08:00,24,595.0,220.33664477306039,-374.66335522693964,287.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Nongzhanguan,2017-01-27 23:00:00+08:00,6,632.0,264.0443980067591,-367.9556019932409,625.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Wanshouxigong,2017-01-27 23:00:00+08:00,6,621.0,254.91047562299295,-366.089524377007,616.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Gucheng,2016-12-31 21:00:00+08:00,24,533.0,171.19152270662744,-361.80847729337256,25.0,high episode; wind direction change; lag-like forecast
+LightGBM global,Tiantan,2017-01-04 00:00:00+08:00,6,531.0,172.26408519157835,-358.7359148084216,184.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Shunyi,2017-01-26 22:00:00+08:00,24,405.0,53.17930288796761,-351.8206971120324,398.0,rapid rise; high episode; wind direction change; weather transition; lag-like forecast
+LightGBM global,Dongsi,2017-01-27 23:00:00+08:00,6,580.0,232.2044252898228,-347.7955747101772,571.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Nongzhanguan,2017-01-04 00:00:00+08:00,6,548.0,202.31237974087077,-345.68762025912923,187.0,rapid rise; high episode; wind direction change
+LightGBM global,Dongsi,2016-12-31 21:00:00+08:00,24,481.0,139.2679672183977,-341.7320327816023,8.0,high episode; wind direction change; lag-like forecast
+LightGBM global,Tiantan,2017-01-02 23:00:00+08:00,24,496.0,170.20625539918942,-325.79374460081056,261.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Guanyuan,2016-12-31 21:00:00+08:00,24,485.0,160.3888814209063,-324.6111185790937,19.0,high episode; wind direction change; lag-like forecast
+LightGBM global,Changping,2016-12-31 21:00:00+08:00,24,523.0,202.89145319979684,-320.10854680020316,297.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global,Aotizhongxin,2017-01-04 00:00:00+08:00,6,500.0,195.70886648438153,-304.29113351561847,196.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Aotizhongxin,2017-01-27 23:00:00+08:00,6,713.0,208.90179187117494,-504.09820812882504,704.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Gucheng,2017-01-02 23:00:00+08:00,24,640.0,157.3627548182733,-482.6372451817267,408.0,rapid rise; high episode; lag-like forecast
+LightGBM global+local,Shunyi,2017-01-27 23:00:00+08:00,6,640.0,208.11913721292183,-431.8808627870782,630.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Changping,2016-12-19 09:00:00+08:00,24,507.0,104.5773013244386,-402.4226986755614,341.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Dongsi,2017-01-02 23:00:00+08:00,24,599.0,203.08289693490343,-395.91710306509657,343.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Tiantan,2017-01-27 23:00:00+08:00,6,594.0,206.55390410159575,-387.4460958984042,590.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Wanshouxigong,2017-01-27 23:00:00+08:00,6,621.0,234.84968915993292,-386.15031084006705,616.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Wanshouxigong,2017-01-02 23:00:00+08:00,24,595.0,221.28370537645347,-373.71629462354656,287.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Gucheng,2016-12-19 09:00:00+08:00,24,521.0,153.47342699253136,-367.52657300746864,406.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Nongzhanguan,2017-01-04 00:00:00+08:00,6,548.0,183.6181696285293,-364.3818303714707,187.0,rapid rise; high episode; wind direction change
+LightGBM global+local,Shunyi,2017-01-26 22:00:00+08:00,24,405.0,41.99933495120656,-363.00066504879345,398.0,rapid rise; high episode; wind direction change; weather transition; lag-like forecast
+LightGBM global+local,Tiantan,2017-01-02 23:00:00+08:00,24,496.0,141.66850403975855,-354.33149596024145,261.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Nongzhanguan,2017-01-27 23:00:00+08:00,6,632.0,283.99513252149296,-348.00486747850704,625.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Wanshouxigong,2016-12-20 10:00:00+08:00,6,170.0,515.7992462805631,345.7992462805631,-61.0,rapid fall; high episode; lag-like forecast
+LightGBM global+local,Changping,2016-12-31 21:00:00+08:00,24,523.0,183.66770625023906,-339.33229374976094,297.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Tiantan,2017-01-04 00:00:00+08:00,6,531.0,199.80580338446336,-331.1941966155366,184.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Gucheng,2016-12-31 21:00:00+08:00,24,533.0,204.57082950218992,-328.4291704978101,25.0,high episode; wind direction change; lag-like forecast
+LightGBM global+local,Aotizhongxin,2017-01-04 00:00:00+08:00,6,500.0,177.75818444649425,-322.2418155535057,196.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Dongsi,2017-01-27 23:00:00+08:00,6,580.0,258.4183685378437,-321.5816314621563,571.0,rapid rise; high episode; wind direction change; lag-like forecast
+LightGBM global+local,Aotizhongxin,2016-12-29 19:00:00+08:00,6,408.0,99.56846571756016,-308.4315342824398,395.0,rapid rise; high episode; wind direction change; lag-like forecast
+Persistence,Changping,2016-12-21 11:00:00+08:00,24,15.0,517.0,502.0,-502.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Gucheng,2017-01-01 22:00:00+08:00,6,13.0,500.0,487.0,-419.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Aotizhongxin,2017-01-27 23:00:00+08:00,6,713.0,278.0,-435.0,704.0,rapid rise; high episode; wind direction change; lag-like forecast
+Persistence,Gucheng,2017-01-02 23:00:00+08:00,24,640.0,232.0,-408.0,408.0,rapid rise; high episode; lag-like forecast
+Persistence,Gucheng,2016-12-19 09:00:00+08:00,24,521.0,115.0,-406.0,406.0,rapid rise; high episode; wind direction change; lag-like forecast
+Persistence,Wanliu,2016-12-21 11:00:00+08:00,24,14.0,420.0,406.0,-406.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Wanshouxigong,2016-12-21 11:00:00+08:00,24,16.0,417.0,401.0,-401.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Changping,2017-01-01 22:00:00+08:00,6,95.0,495.0,400.0,-304.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Shunyi,2017-01-26 22:00:00+08:00,24,405.0,7.0,-398.0,398.0,rapid rise; high episode; wind direction change; weather transition; lag-like forecast
+Persistence,Nongzhanguan,2017-01-04 00:00:00+08:00,24,157.0,552.0,395.0,-395.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Huairou,2016-12-21 11:00:00+08:00,24,7.0,401.0,394.0,-394.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Dingling,2016-12-21 11:00:00+08:00,24,10.0,393.0,383.0,-383.0,rapid fall; wind direction change; historical gap >=24h; lag-like forecast
+Persistence,Dongsi,2017-01-04 00:00:00+08:00,24,234.0,615.0,381.0,-381.0,rapid fall; high episode; wind direction change; lag-like forecast
+Persistence,Guanyuan,2016-12-21 11:00:00+08:00,24,25.0,404.0,379.0,-379.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Tiantan,2016-12-21 11:00:00+08:00,24,19.0,391.0,372.0,-372.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Shunyi,2016-12-21 11:00:00+08:00,24,11.0,371.0,360.0,-360.0,rapid fall; wind direction change; historical gap >=24h; lag-like forecast
+Persistence,Dongsi,2016-12-21 11:00:00+08:00,24,14.0,372.0,358.0,-358.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Aotizhongxin,2016-12-21 11:00:00+08:00,24,8.0,359.0,351.0,-351.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Nongzhanguan,2016-12-21 11:00:00+08:00,24,16.0,366.0,350.0,-350.0,rapid fall; wind direction change; lag-like forecast
+Persistence,Wanshouxigong,2017-01-04 00:00:00+08:00,24,264.0,610.0,346.0,-346.0,rapid fall; high episode; wind direction change; lag-like forecast
+Seasonal day,Aotizhongxin,2017-01-27 23:00:00+08:00,6,713.0,9.0,-704.0,704.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal day,Aotizhongxin,2017-01-29 00:00:00+08:00,6,9.0,697.0,688.0,-688.0,rapid fall; lag-like forecast
+Seasonal day,Shunyi,2017-01-27 23:00:00+08:00,6,640.0,10.0,-630.0,630.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal day,Nongzhanguan,2017-01-27 23:00:00+08:00,6,632.0,7.0,-625.0,625.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal day,Wanliu,2017-01-29 00:00:00+08:00,6,6.0,625.0,619.0,-619.0,rapid fall; lag-like forecast
+Seasonal day,Wanshouxigong,2017-01-27 23:00:00+08:00,6,621.0,5.0,-616.0,616.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal day,Shunyi,2017-01-27 23:00:00+08:00,1,609.0,7.0,-602.0,602.0,rapid rise; high episode; lag-like forecast
+Seasonal day,Tiantan,2017-01-27 23:00:00+08:00,6,594.0,4.0,-590.0,590.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal day,Shunyi,2017-01-29 00:00:00+08:00,6,4.0,593.0,589.0,-589.0,rapid fall; wind direction change; lag-like forecast
+Seasonal day,Changping,2016-12-22 12:00:00+08:00,1,18.0,596.0,578.0,-578.0,rapid fall
+Seasonal day,Dongsi,2017-01-27 23:00:00+08:00,6,580.0,9.0,-571.0,571.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal day,Wanliu,2017-01-27 23:00:00+08:00,6,568.0,3.0,-565.0,565.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal day,Dongsi,2017-01-29 00:00:00+08:00,6,16.0,575.0,559.0,-559.0,rapid fall; lag-like forecast
+Seasonal day,Guanyuan,2017-01-29 00:00:00+08:00,6,10.0,567.0,557.0,-557.0,rapid fall; lag-like forecast
+Seasonal day,Wanshouxigong,2017-01-29 00:00:00+08:00,6,13.0,550.0,537.0,-537.0,rapid fall; lag-like forecast
+Seasonal day,Wanshouxigong,2017-01-29 00:00:00+08:00,1,280.0,804.0,524.0,-524.0,rapid fall; high episode
+Seasonal day,Gucheng,2017-01-29 00:00:00+08:00,6,13.0,526.0,513.0,-513.0,rapid fall; lag-like forecast
+Seasonal day,Changping,2016-12-21 11:00:00+08:00,24,15.0,517.0,502.0,-502.0,rapid fall; wind direction change; lag-like forecast
+Seasonal day,Gucheng,2017-01-29 00:00:00+08:00,1,238.0,739.0,501.0,-501.0,rapid fall; high episode
+Seasonal day,Guanyuan,2016-12-22 12:00:00+08:00,6,3.0,495.0,492.0,-492.0,rapid fall; lag-like forecast
+Seasonal week,Aotizhongxin,2017-01-27 23:00:00+08:00,6,713.0,69.0,-644.0,704.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Gucheng,2016-12-26 16:00:00+08:00,24,18.0,634.0,616.0,6.0,wind direction change
+Seasonal week,Gucheng,2016-12-20 10:00:00+08:00,6,634.0,25.0,-609.0,417.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Shunyi,2017-01-27 23:00:00+08:00,6,640.0,63.0,-577.0,630.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Changping,2016-12-21 11:00:00+08:00,1,576.0,6.0,-570.0,19.0,high episode; wind direction change; lag-like forecast
+Seasonal week,Wanshouxigong,2017-01-27 23:00:00+08:00,6,621.0,82.0,-539.0,616.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Nongzhanguan,2017-01-27 23:00:00+08:00,6,632.0,97.0,-535.0,625.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Wanliu,2017-01-27 23:00:00+08:00,6,568.0,52.0,-516.0,565.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Changping,2016-12-20 10:00:00+08:00,1,552.0,37.0,-515.0,376.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Gucheng,2016-12-19 09:00:00+08:00,24,521.0,9.0,-512.0,406.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Tiantan,2017-01-27 23:00:00+08:00,6,594.0,88.0,-506.0,590.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Dongsi,2017-01-04 00:00:00+08:00,1,662.0,158.0,-504.0,382.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Huairou,2017-01-08 04:00:00+08:00,1,24.0,520.0,496.0,-147.0,rapid fall; wind direction change; lag-like forecast
+Seasonal week,Guanyuan,2016-12-26 16:00:00+08:00,24,13.0,508.0,495.0,-3.0,wind direction change; lag-like forecast
+Seasonal week,Wanshouxigong,2017-01-10 06:00:00+08:00,24,68.0,557.0,489.0,64.0,rapid rise; wind direction change
+Seasonal week,Shunyi,2017-01-27 23:00:00+08:00,1,609.0,121.0,-488.0,602.0,rapid rise; high episode; lag-like forecast
+Seasonal week,Gucheng,2016-12-20 10:00:00+08:00,1,495.0,11.0,-484.0,335.0,rapid rise; high episode; wind direction change
+Seasonal week,Dongsi,2017-01-27 23:00:00+08:00,6,580.0,98.0,-482.0,571.0,rapid rise; high episode; wind direction change; lag-like forecast
+Seasonal week,Guanyuan,2016-12-20 10:00:00+08:00,6,508.0,28.0,-480.0,306.0,rapid rise; high episode; lag-like forecast
+Seasonal week,Guanyuan,2016-12-27 17:00:00+08:00,24,4.0,480.0,476.0,-23.0,wind direction change; lag-like forecast

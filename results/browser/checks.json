@@ -1,0 +1,19 @@
+{
+  "browser": "headless Chromium",
+  "desktop": "1440x1100",
+  "mobile": "390x844",
+  "checks": [
+    "default measured MAE",
+    "all selectors",
+    "unsupported budgets",
+    "interval availability",
+    "CSV download",
+    "local fallback explanation",
+    "keyboard tab",
+    "mobile overflow",
+    "failed data request"
+  ],
+  "page_errors": [],
+  "unexpected_http_errors": [],
+  "passed": true
+}

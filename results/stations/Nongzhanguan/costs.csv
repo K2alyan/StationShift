@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Nongzhanguan,Persistence,24,1,0.0,1.0000017937272787e-05,0,0,0,False,132,cpu
+Nongzhanguan,Persistence,72,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,168,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,720,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,2160,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,24,1,0.0,1.2200005585327744e-05,0,0,0,False,132,cpu
+Nongzhanguan,Seasonal day,72,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,168,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,720,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,2160,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal week,168,1,0.0,1.0499992640689015e-05,0,0,0,False,132,cpu
+Nongzhanguan,Seasonal week,720,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal week,2160,1,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,LightGBM calendar,0,1,0.2071437000122387,0.0019135999900754541,0,94512,6200,False,132,cpu
+Nongzhanguan,LightGBM global,24,1,0.6618951999989804,0.0014012999890837818,0,83683,6200,False,132,cpu
+Nongzhanguan,LightGBM global+local,24,1,0.0,0.0,0,83683,6200,True,132,cpu
+Nongzhanguan,LightGBM global,72,1,0.0,0.0,0,83683,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,72,1,0.6589697999879718,0.0016595000051893294,48,83683,6200,False,132,cpu
+Nongzhanguan,LightGBM global,168,1,0.0,0.0,0,83683,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,168,1,0.6702718999877106,0.0016910000122152269,144,83683,6200,False,132,cpu
+Nongzhanguan,LightGBM global,720,1,0.0,0.0,0,83683,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,720,1,0.6730930999910925,0.0014672999968752265,671,83683,6200,False,132,cpu
+Nongzhanguan,LightGBM global,2160,1,0.0,0.0,0,83683,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,2160,1,0.685446099989349,0.0013497999752871692,1976,83683,6200,False,132,cpu
+Nongzhanguan,Persistence,24,6,0.0,1.7900019884109497e-05,0,0,0,False,132,cpu
+Nongzhanguan,Persistence,72,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,168,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,720,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,2160,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,24,6,0.0,1.7400016076862812e-05,0,0,0,False,132,cpu
+Nongzhanguan,Seasonal day,72,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,168,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,720,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,2160,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal week,168,6,0.0,9.399984264746308e-06,0,0,0,False,132,cpu
+Nongzhanguan,Seasonal week,720,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal week,2160,6,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,LightGBM calendar,0,6,0.20458360001794063,0.001421299995854497,0,94480,6200,False,132,cpu
+Nongzhanguan,LightGBM global,24,6,0.6634769999946002,0.0014711999974679202,0,83211,6200,False,132,cpu
+Nongzhanguan,LightGBM global+local,24,6,0.0,0.0,0,83211,6200,True,132,cpu
+Nongzhanguan,LightGBM global,72,6,0.0,0.0,0,83211,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,72,6,0.6677018000045791,0.0015189000114332885,43,83211,6200,False,132,cpu
+Nongzhanguan,LightGBM global,168,6,0.0,0.0,0,83211,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,168,6,0.648209599981783,0.0014010999875608832,139,83211,6200,False,132,cpu
+Nongzhanguan,LightGBM global,720,6,0.0,0.0,0,83211,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,720,6,0.6545802000036929,0.0014393999881576747,666,83211,6200,False,132,cpu
+Nongzhanguan,LightGBM global,2160,6,0.0,0.0,0,83211,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,2160,6,0.66565010001068,0.001438500010408461,1970,83211,6200,False,132,cpu
+Nongzhanguan,Persistence,24,24,0.0,3.5600009141489863e-05,0,0,0,False,132,cpu
+Nongzhanguan,Persistence,72,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,168,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,720,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Persistence,2160,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,24,24,0.0,1.5400000847876072e-05,0,0,0,False,132,cpu
+Nongzhanguan,Seasonal day,72,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,168,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,720,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal day,2160,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal week,168,24,0.0,9.499985026195645e-06,0,0,0,False,132,cpu
+Nongzhanguan,Seasonal week,720,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,Seasonal week,2160,24,0.0,0.0,0,0,0,True,132,cpu
+Nongzhanguan,LightGBM calendar,0,24,0.21211389999371022,0.0015084999904502183,0,94414,6200,False,132,cpu
+Nongzhanguan,LightGBM global,24,24,0.615541499981191,0.0013860999897588044,0,82803,6200,False,132,cpu
+Nongzhanguan,LightGBM global+local,24,24,0.0,0.0,0,82803,6200,True,132,cpu
+Nongzhanguan,LightGBM global,72,24,0.0,0.0,0,82803,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,72,24,0.6461139000020921,0.0014392000157386065,25,82803,6200,False,132,cpu
+Nongzhanguan,LightGBM global,168,24,0.0,0.0,0,82803,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,168,24,0.6721389000013005,0.0015708999999333173,121,82803,6200,False,132,cpu
+Nongzhanguan,LightGBM global,720,24,0.0,0.0,0,82803,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,720,24,0.630739199987147,0.0014334000006783754,648,82803,6200,False,132,cpu
+Nongzhanguan,LightGBM global,2160,24,0.0,0.0,0,82803,6200,True,132,cpu
+Nongzhanguan,LightGBM global+local,2160,24,0.6214786000200547,0.001348999998299405,1951,82803,6200,False,132,cpu
+Nongzhanguan,Chronos-2,24,1,0.0,0.43397179999738,0,0,0,False,132,cuda
+Nongzhanguan,Chronos-2,24,6,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,24,24,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,72,1,0.0,0.23590689999400638,0,0,0,False,132,cuda
+Nongzhanguan,Chronos-2,72,6,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,72,24,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,168,1,0.0,0.2294714999734424,0,0,0,False,132,cuda
+Nongzhanguan,Chronos-2,168,6,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,168,24,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,720,1,0.0,0.3301750000100583,0,0,0,False,132,cuda
+Nongzhanguan,Chronos-2,720,6,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,720,24,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,2160,1,0.0,0.8489438999968115,0,0,0,False,132,cuda
+Nongzhanguan,Chronos-2,2160,6,0.0,0.0,0,0,0,True,132,cuda
+Nongzhanguan,Chronos-2,2160,24,0.0,0.0,0,0,0,True,132,cuda

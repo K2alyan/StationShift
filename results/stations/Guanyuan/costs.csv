@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Guanyuan,Persistence,24,1,0.0,4.630000330507755e-05,0,0,0,False,131,cpu
+Guanyuan,Persistence,72,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,168,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,720,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,2160,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,24,1,0.0,0.00011799999629147351,0,0,0,False,131,cpu
+Guanyuan,Seasonal day,72,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,168,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,720,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,2160,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal week,168,1,0.0,9.039998985826969e-05,0,0,0,False,131,cpu
+Guanyuan,Seasonal week,720,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal week,2160,1,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,LightGBM calendar,0,1,0.3051139999879524,0.0017669000080786645,0,94487,6200,False,131,cpu
+Guanyuan,LightGBM global,24,1,0.970021800021641,0.0022407000069506466,0,83534,6200,False,131,cpu
+Guanyuan,LightGBM global+local,24,1,0.0,0.0,0,83534,6200,True,131,cpu
+Guanyuan,LightGBM global,72,1,0.0,0.0,0,83534,6200,True,131,cpu
+Guanyuan,LightGBM global+local,72,1,0.9089911000046413,0.0014759000041522086,34,83534,6200,False,131,cpu
+Guanyuan,LightGBM global,168,1,0.0,0.0,0,83534,6200,True,131,cpu
+Guanyuan,LightGBM global+local,168,1,0.6692789999942761,0.0013636999938171357,119,83534,6200,False,131,cpu
+Guanyuan,LightGBM global,720,1,0.0,0.0,0,83534,6200,True,131,cpu
+Guanyuan,LightGBM global+local,720,1,0.6734164000081364,0.0012873999949079007,658,83534,6200,False,131,cpu
+Guanyuan,LightGBM global,2160,1,0.0,0.0,0,83534,6200,True,131,cpu
+Guanyuan,LightGBM global+local,2160,1,0.687387400015723,0.0013820999884046614,1828,83534,6200,False,131,cpu
+Guanyuan,Persistence,24,6,0.0,1.7300015315413475e-05,0,0,0,False,131,cpu
+Guanyuan,Persistence,72,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,168,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,720,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,2160,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,24,6,0.0,1.0599993402138352e-05,0,0,0,False,131,cpu
+Guanyuan,Seasonal day,72,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,168,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,720,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,2160,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal week,168,6,0.0,1.3900018529966474e-05,0,0,0,False,131,cpu
+Guanyuan,Seasonal week,720,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal week,2160,6,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,LightGBM calendar,0,6,0.21384800001396798,0.001430599979357794,0,94457,6200,False,131,cpu
+Guanyuan,LightGBM global,24,6,0.6767807000142056,0.0015121999895200133,0,83045,6200,False,131,cpu
+Guanyuan,LightGBM global+local,24,6,0.0,0.0,0,83045,6200,True,131,cpu
+Guanyuan,LightGBM global,72,6,0.0,0.0,0,83045,6200,True,131,cpu
+Guanyuan,LightGBM global+local,72,6,0.6920758000051137,0.0015088999934960157,29,83045,6200,False,131,cpu
+Guanyuan,LightGBM global,168,6,0.0,0.0,0,83045,6200,True,131,cpu
+Guanyuan,LightGBM global+local,168,6,0.6535533999849577,0.001886499987449497,114,83045,6200,False,131,cpu
+Guanyuan,LightGBM global,720,6,0.0,0.0,0,83045,6200,True,131,cpu
+Guanyuan,LightGBM global+local,720,6,0.6914165999914985,0.0015696000191383064,653,83045,6200,False,131,cpu
+Guanyuan,LightGBM global,2160,6,0.0,0.0,0,83045,6200,True,131,cpu
+Guanyuan,LightGBM global+local,2160,6,0.7599992000032216,0.0014168999914545566,1812,83045,6200,False,131,cpu
+Guanyuan,Persistence,24,24,0.0,1.4699995517730713e-05,0,0,0,False,131,cpu
+Guanyuan,Persistence,72,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,168,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,720,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Persistence,2160,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,24,24,0.0,1.7799990018829703e-05,0,0,0,False,131,cpu
+Guanyuan,Seasonal day,72,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,168,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,720,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal day,2160,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal week,168,24,0.0,1.8999999156221747e-05,0,0,0,False,131,cpu
+Guanyuan,Seasonal week,720,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,Seasonal week,2160,24,0.0,0.0,0,0,0,True,131,cpu
+Guanyuan,LightGBM calendar,0,24,0.2639201999991201,0.0016364000039175153,0,94391,6200,False,131,cpu
+Guanyuan,LightGBM global,24,24,0.6760016000189353,0.0014301000046543777,0,82633,6200,False,131,cpu
+Guanyuan,LightGBM global+local,24,24,0.0,0.0,0,82633,6200,True,131,cpu
+Guanyuan,LightGBM global,72,24,0.0,0.0,0,82633,6200,True,131,cpu
+Guanyuan,LightGBM global+local,72,24,0.6477362999867182,0.0021624999935738742,11,82633,6200,False,131,cpu
+Guanyuan,LightGBM global,168,24,0.0,0.0,0,82633,6200,True,131,cpu
+Guanyuan,LightGBM global+local,168,24,0.6495118000020739,0.0015505999908782542,96,82633,6200,False,131,cpu
+Guanyuan,LightGBM global,720,24,0.0,0.0,0,82633,6200,True,131,cpu
+Guanyuan,LightGBM global+local,720,24,0.6575398999848403,0.001408900017850101,635,82633,6200,False,131,cpu
+Guanyuan,LightGBM global,2160,24,0.0,0.0,0,82633,6200,True,131,cpu
+Guanyuan,LightGBM global+local,2160,24,0.651534200005699,0.0020163999870419502,1773,82633,6200,False,131,cpu
+Guanyuan,Chronos-2,24,1,0.0,0.44131100000231527,0,0,0,False,131,cuda
+Guanyuan,Chronos-2,24,6,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,24,24,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,72,1,0.0,0.2175101999891922,0,0,0,False,131,cuda
+Guanyuan,Chronos-2,72,6,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,72,24,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,168,1,0.0,0.20906780002405867,0,0,0,False,131,cuda
+Guanyuan,Chronos-2,168,6,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,168,24,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,720,1,0.0,0.3326470000029076,0,0,0,False,131,cuda
+Guanyuan,Chronos-2,720,6,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,720,24,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,2160,1,0.0,0.8510324999806471,0,0,0,False,131,cuda
+Guanyuan,Chronos-2,2160,6,0.0,0.0,0,0,0,True,131,cuda
+Guanyuan,Chronos-2,2160,24,0.0,0.0,0,0,0,True,131,cuda

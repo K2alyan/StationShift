@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Dingling,Persistence,24,1,0.0,3.559998003765941e-05,0,0,0,False,105,cpu
+Dingling,Persistence,72,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,168,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,720,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,2160,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,24,1,0.0,6.829999620094895e-05,0,0,0,False,105,cpu
+Dingling,Seasonal day,72,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,168,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,720,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,2160,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal week,168,1,0.0,1.2200005585327744e-05,0,0,0,False,105,cpu
+Dingling,Seasonal week,720,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal week,2160,1,0.0,0.0,0,0,0,True,105,cpu
+Dingling,LightGBM calendar,0,1,0.28079849999630824,0.0018518999859225005,0,94514,6200,False,105,cpu
+Dingling,LightGBM global,24,1,1.0298212000052445,0.0040256000065710396,0,83478,6200,False,105,cpu
+Dingling,LightGBM global+local,24,1,0.0,0.0,0,83478,6200,True,105,cpu
+Dingling,LightGBM global,72,1,0.0,0.0,0,83478,6200,True,105,cpu
+Dingling,LightGBM global+local,72,1,1.0143158999853767,0.0014048000157345086,48,83478,6200,False,105,cpu
+Dingling,LightGBM global,168,1,0.0,0.0,0,83478,6200,True,105,cpu
+Dingling,LightGBM global+local,168,1,0.9180843999783974,0.00411879998864606,144,83478,6200,False,105,cpu
+Dingling,LightGBM global,720,1,0.0,0.0,0,83478,6200,True,105,cpu
+Dingling,LightGBM global+local,720,1,0.8603648999996949,0.0020705000206362456,599,83478,6200,False,105,cpu
+Dingling,LightGBM global,2160,1,0.0,0.0,0,83478,6200,True,105,cpu
+Dingling,LightGBM global+local,2160,1,0.781130099989241,0.0012796999944839627,1871,83478,6200,False,105,cpu
+Dingling,Persistence,24,6,0.0,1.4099990949034691e-05,0,0,0,False,105,cpu
+Dingling,Persistence,72,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,168,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,720,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,2160,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,24,6,0.0,2.1000014385208488e-05,0,0,0,False,105,cpu
+Dingling,Seasonal day,72,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,168,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,720,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,2160,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal week,168,6,0.0,1.4899997040629387e-05,0,0,0,False,105,cpu
+Dingling,Seasonal week,720,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal week,2160,6,0.0,0.0,0,0,0,True,105,cpu
+Dingling,LightGBM calendar,0,6,0.24593269999604672,0.0020523999992292374,0,94484,6200,False,105,cpu
+Dingling,LightGBM global,24,6,0.6973106999939773,0.0018991999968420714,0,83010,6200,False,105,cpu
+Dingling,LightGBM global+local,24,6,0.0,0.0,0,83010,6200,True,105,cpu
+Dingling,LightGBM global,72,6,0.0,0.0,0,83010,6200,True,105,cpu
+Dingling,LightGBM global+local,72,6,0.9752488999802154,0.0013867999950889498,43,83010,6200,False,105,cpu
+Dingling,LightGBM global,168,6,0.0,0.0,0,83010,6200,True,105,cpu
+Dingling,LightGBM global+local,168,6,0.7598595000163186,0.002542000001994893,139,83010,6200,False,105,cpu
+Dingling,LightGBM global,720,6,0.0,0.0,0,83010,6200,True,105,cpu
+Dingling,LightGBM global+local,720,6,0.7672741000133101,0.0016866000078152865,591,83010,6200,False,105,cpu
+Dingling,LightGBM global,2160,6,0.0,0.0,0,83010,6200,True,105,cpu
+Dingling,LightGBM global+local,2160,6,0.7230950999946799,0.001962400012416765,1856,83010,6200,False,105,cpu
+Dingling,Persistence,24,24,0.0,2.4900014977902174e-05,0,0,0,False,105,cpu
+Dingling,Persistence,72,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,168,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,720,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Persistence,2160,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,24,24,0.0,8.300004992634058e-06,0,0,0,False,105,cpu
+Dingling,Seasonal day,72,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,168,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,720,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal day,2160,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal week,168,24,0.0,5.140001303516328e-05,0,0,0,False,105,cpu
+Dingling,Seasonal week,720,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,Seasonal week,2160,24,0.0,0.0,0,0,0,True,105,cpu
+Dingling,LightGBM calendar,0,24,0.21858489999431185,0.0017923999985214323,0,94418,6200,False,105,cpu
+Dingling,LightGBM global,24,24,0.7480620999995153,0.001611499988939613,0,82601,6200,False,105,cpu
+Dingling,LightGBM global+local,24,24,0.0,0.0,0,82601,6200,True,105,cpu
+Dingling,LightGBM global,72,24,0.0,0.0,0,82601,6200,True,105,cpu
+Dingling,LightGBM global+local,72,24,0.8295206000038888,0.0018884000019170344,25,82601,6200,False,105,cpu
+Dingling,LightGBM global,168,24,0.0,0.0,0,82601,6200,True,105,cpu
+Dingling,LightGBM global+local,168,24,0.7358840999950189,0.0033582000178284943,121,82601,6200,False,105,cpu
+Dingling,LightGBM global,720,24,0.0,0.0,0,82601,6200,True,105,cpu
+Dingling,LightGBM global+local,720,24,0.7300682000059169,0.00179870001738891,574,82601,6200,False,105,cpu
+Dingling,LightGBM global,2160,24,0.0,0.0,0,82601,6200,True,105,cpu
+Dingling,LightGBM global+local,2160,24,0.754921200015815,0.001436399994418025,1840,82601,6200,False,105,cpu
+Dingling,Chronos-2,24,1,0.0,0.366286799981026,0,0,0,False,105,cuda
+Dingling,Chronos-2,24,6,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,24,24,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,72,1,0.0,0.17226009999285452,0,0,0,False,105,cuda
+Dingling,Chronos-2,72,6,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,72,24,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,168,1,0.0,0.18853869999293238,0,0,0,False,105,cuda
+Dingling,Chronos-2,168,6,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,168,24,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,720,1,0.0,0.271473300002981,0,0,0,False,105,cuda
+Dingling,Chronos-2,720,6,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,720,24,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,2160,1,0.0,0.6807721999939531,0,0,0,False,105,cuda
+Dingling,Chronos-2,2160,6,0.0,0.0,0,0,0,True,105,cuda
+Dingling,Chronos-2,2160,24,0.0,0.0,0,0,0,True,105,cuda

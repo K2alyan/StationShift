@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "5a91aaa7190ac34c968e5a399ff5d89edac87fcba27171283398b2d36bebba43",
+  "amendment_sha256": "50f004a7864abd14cc8ba5f6e384e7d98043324c86c28865d4cbffd6530133a3",
+  "origins": 119,
+  "quantile_crossings": 3,
+  "cuda_peak_allocated_bytes": 576383488
+}

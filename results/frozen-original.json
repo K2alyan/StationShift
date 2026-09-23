@@ -1,0 +1,19 @@
+{
+  "protocol_sha256": "5a91aaa7190ac34c968e5a399ff5d89edac87fcba27171283398b2d36bebba43",
+  "high_pm_threshold": 168.0,
+  "mase_scales": {
+    "Aotizhongxin": 56.28999018645731,
+    "Changping": 44.829787234042556,
+    "Dingling": 50.95750845002414,
+    "Dongsi": 59.387714987714986,
+    "Guanyuan": 54.77840641206978,
+    "Gucheng": 54.38809523809524,
+    "Huairou": 48.9856184084372,
+    "Nongzhanguan": 55.71919770773639,
+    "Shunyi": 58.824498198661864,
+    "Tiantan": 50.749640287769786,
+    "Wanliu": 52.69886363636363,
+    "Wanshouxigong": 54.20684667309547
+  },
+  "seed": 20260923
+}

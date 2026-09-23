@@ -1,0 +1,217 @@
+station,model,horizon,threshold_hours,mature_mae
+Aotizhongxin,Chronos-2,1,24,12.510265404837472
+Aotizhongxin,Chronos-2,6,720,42.9032874924796
+Aotizhongxin,Chronos-2,24,168,62.68823229925973
+Aotizhongxin,LightGBM global,1,24,11.277644077708288
+Aotizhongxin,LightGBM global,6,24,41.71643089049256
+Aotizhongxin,LightGBM global,24,24,61.191407470523515
+Aotizhongxin,LightGBM global+local,1,24,11.597550629952178
+Aotizhongxin,LightGBM global+local,6,24,41.248709659716766
+Aotizhongxin,LightGBM global+local,24,24,62.06910304705969
+Aotizhongxin,Persistence,1,24,12.585714285714285
+Aotizhongxin,Persistence,6,24,42.864285714285714
+Aotizhongxin,Persistence,24,24,77.18571428571428
+Aotizhongxin,Seasonal day,1,24,75.94285714285714
+Aotizhongxin,Seasonal day,6,24,89.79285714285714
+Aotizhongxin,Seasonal day,24,24,77.18571428571428
+Aotizhongxin,Seasonal week,1,168,104.25
+Aotizhongxin,Seasonal week,6,168,102.16428571428571
+Aotizhongxin,Seasonal week,24,168,104.71428571428571
+Changping,Chronos-2,1,24,11.510882111633716
+Changping,Chronos-2,6,720,31.192171771510118
+Changping,Chronos-2,24,720,56.30253955296108
+Changping,LightGBM global,1,24,10.524439152428819
+Changping,LightGBM global,6,24,30.97170368909551
+Changping,LightGBM global,24,24,54.39921595129426
+Changping,LightGBM global+local,1,24,10.412287957627077
+Changping,LightGBM global+local,6,24,31.651898941270257
+Changping,LightGBM global+local,24,24,54.7431280493519
+Changping,Persistence,1,24,11.244897959183673
+Changping,Persistence,6,24,36.265306122448976
+Changping,Persistence,24,24,67.45578231292517
+Changping,Seasonal day,1,24,72.0
+Changping,Seasonal day,6,24,72.14965986394557
+Changping,Seasonal day,24,24,67.45578231292517
+Changping,Seasonal week,1,168,90.4625850340136
+Changping,Seasonal week,6,168,81.06122448979592
+Changping,Seasonal week,24,168,92.04761904761905
+Dingling,Chronos-2,1,168,11.479000454857236
+Dingling,Chronos-2,6,72,28.807721128917876
+Dingling,Chronos-2,24,720,50.91645943777902
+Dingling,LightGBM global,1,24,11.00850350047704
+Dingling,LightGBM global,6,24,30.11611249065558
+Dingling,LightGBM global,24,24,51.20113982683191
+Dingling,LightGBM global+local,1,24,10.69899369308895
+Dingling,LightGBM global+local,6,24,29.11371416552785
+Dingling,LightGBM global+local,24,24,50.763623842711084
+Dingling,Persistence,1,24,11.028571428571428
+Dingling,Persistence,6,24,31.37142857142857
+Dingling,Persistence,24,24,64.23809523809524
+Dingling,Seasonal day,1,24,65.70476190476191
+Dingling,Seasonal day,6,24,70.53333333333333
+Dingling,Seasonal day,24,24,64.23809523809524
+Dingling,Seasonal week,1,168,79.08571428571429
+Dingling,Seasonal week,6,168,72.29523809523809
+Dingling,Seasonal week,24,168,71.07619047619048
+Dongsi,Chronos-2,1,24,12.200957657860927
+Dongsi,Chronos-2,6,168,47.05611966867916
+Dongsi,Chronos-2,24,168,75.81923093952116
+Dongsi,LightGBM global,1,24,13.293504424496781
+Dongsi,LightGBM global,6,24,44.472993131250895
+Dongsi,LightGBM global,24,24,70.88063455515706
+Dongsi,LightGBM global+local,1,24,13.68759479904347
+Dongsi,LightGBM global+local,6,24,44.26226037913236
+Dongsi,LightGBM global+local,24,24,69.80568127242293
+Dongsi,Persistence,1,24,12.680327868852459
+Dongsi,Persistence,6,24,49.0655737704918
+Dongsi,Persistence,24,24,86.65573770491804
+Dongsi,Seasonal day,1,24,89.9672131147541
+Dongsi,Seasonal day,6,24,92.55737704918033
+Dongsi,Seasonal day,24,24,86.65573770491804
+Dongsi,Seasonal week,1,168,121.36885245901638
+Dongsi,Seasonal week,6,168,113.77868852459017
+Dongsi,Seasonal week,24,168,119.14754098360656
+Guanyuan,Chronos-2,1,24,10.807825277779848
+Guanyuan,Chronos-2,6,72,40.04647406366945
+Guanyuan,Chronos-2,24,168,57.10857707307539
+Guanyuan,LightGBM global,1,24,11.464260076399087
+Guanyuan,LightGBM global,6,24,37.12028145418575
+Guanyuan,LightGBM global,24,24,59.55237083715078
+Guanyuan,LightGBM global+local,1,24,11.422618297783583
+Guanyuan,LightGBM global+local,6,24,36.92137450800806
+Guanyuan,LightGBM global+local,24,24,59.779877261835196
+Guanyuan,Persistence,1,24,10.83969465648855
+Guanyuan,Persistence,6,24,40.01526717557252
+Guanyuan,Persistence,24,24,72.89312977099236
+Guanyuan,Seasonal day,1,24,74.89312977099236
+Guanyuan,Seasonal day,6,24,82.26717557251908
+Guanyuan,Seasonal day,24,24,72.89312977099236
+Guanyuan,Seasonal week,1,168,98.3969465648855
+Guanyuan,Seasonal week,6,168,92.51908396946565
+Guanyuan,Seasonal week,24,168,96.61832061068702
+Gucheng,Chronos-2,1,72,10.228573322296143
+Gucheng,Chronos-2,6,72,36.354889303445816
+Gucheng,Chronos-2,24,720,62.52198223769665
+Gucheng,LightGBM global,1,24,11.714918285114699
+Gucheng,LightGBM global,6,24,37.51128667051862
+Gucheng,LightGBM global,24,24,72.2058451973565
+Gucheng,LightGBM global+local,1,24,11.236380325825973
+Gucheng,LightGBM global+local,6,24,37.92180978170708
+Gucheng,LightGBM global+local,24,24,71.88396904664279
+Gucheng,Persistence,1,24,11.1953125
+Gucheng,Persistence,6,24,38.7734375
+Gucheng,Persistence,24,24,81.9609375
+Gucheng,Seasonal day,1,24,95.5
+Gucheng,Seasonal day,6,24,92.3125
+Gucheng,Seasonal day,24,24,81.9609375
+Gucheng,Seasonal week,1,168,105.484375
+Gucheng,Seasonal week,6,168,98.1796875
+Gucheng,Seasonal week,24,168,111.859375
+Huairou,Chronos-2,1,720,8.749435007137103
+Huairou,Chronos-2,6,720,24.093988766635423
+Huairou,Chronos-2,24,720,54.85667806472222
+Huairou,LightGBM global,1,24,9.07374380266482
+Huairou,LightGBM global,6,24,27.232503283182655
+Huairou,LightGBM global,24,24,57.66650448738819
+Huairou,LightGBM global+local,1,24,9.17803835349373
+Huairou,LightGBM global+local,6,24,26.46204302202981
+Huairou,LightGBM global+local,24,24,57.571250461271944
+Huairou,Persistence,1,24,9.459854014598541
+Huairou,Persistence,6,24,29.693430656934307
+Huairou,Persistence,24,24,67.4014598540146
+Huairou,Seasonal day,1,24,73.23357664233576
+Huairou,Seasonal day,6,24,61.23357664233578
+Huairou,Seasonal day,24,24,67.4014598540146
+Huairou,Seasonal week,1,168,91.43795620437956
+Huairou,Seasonal week,6,168,82.60583941605839
+Huairou,Seasonal week,24,168,88.91970802919708
+Nongzhanguan,Chronos-2,1,72,11.421178601004861
+Nongzhanguan,Chronos-2,6,168,38.28444096536347
+Nongzhanguan,Chronos-2,24,168,61.34992128429991
+Nongzhanguan,LightGBM global,1,24,11.710692179276009
+Nongzhanguan,LightGBM global,6,24,38.90536901771807
+Nongzhanguan,LightGBM global,24,24,59.176903337756784
+Nongzhanguan,LightGBM global+local,1,24,11.951378156460725
+Nongzhanguan,LightGBM global+local,6,24,37.935330791341464
+Nongzhanguan,LightGBM global+local,24,24,58.680865221102096
+Nongzhanguan,Persistence,1,24,12.333333333333334
+Nongzhanguan,Persistence,6,24,40.61363636363637
+Nongzhanguan,Persistence,24,24,81.1969696969697
+Nongzhanguan,Seasonal day,1,24,87.13636363636364
+Nongzhanguan,Seasonal day,6,24,86.10606060606061
+Nongzhanguan,Seasonal day,24,24,81.1969696969697
+Nongzhanguan,Seasonal week,1,168,105.65151515151516
+Nongzhanguan,Seasonal week,6,168,94.04545454545455
+Nongzhanguan,Seasonal week,24,168,108.04545454545455
+Shunyi,Chronos-2,1,72,11.434082159475118
+Shunyi,Chronos-2,6,72,38.955273604192655
+Shunyi,Chronos-2,24,168,65.50989226333233
+Shunyi,LightGBM global,1,24,11.530683044716959
+Shunyi,LightGBM global,6,24,40.75578362274136
+Shunyi,LightGBM global,24,24,64.23478259173032
+Shunyi,LightGBM global+local,1,24,11.24142366295202
+Shunyi,LightGBM global+local,6,24,41.233011616259525
+Shunyi,LightGBM global+local,24,24,64.76311687972367
+Shunyi,Persistence,1,24,11.974789915966387
+Shunyi,Persistence,6,24,40.226890756302524
+Shunyi,Persistence,24,24,84.3109243697479
+Shunyi,Seasonal day,1,24,85.68067226890756
+Shunyi,Seasonal day,6,24,86.74789915966386
+Shunyi,Seasonal day,24,24,84.3109243697479
+Shunyi,Seasonal week,1,168,111.7983193277311
+Shunyi,Seasonal week,6,168,113.3529411764706
+Shunyi,Seasonal week,24,168,110.33613445378151
+Tiantan,Chronos-2,1,168,10.894772989766581
+Tiantan,Chronos-2,6,720,40.06625111453183
+Tiantan,Chronos-2,24,168,67.77187727548025
+Tiantan,LightGBM global,1,24,12.42256487739988
+Tiantan,LightGBM global,6,24,38.99314150143489
+Tiantan,LightGBM global,24,24,65.19602002011784
+Tiantan,LightGBM global+local,1,24,12.685518238767077
+Tiantan,LightGBM global+local,6,24,38.53497029337569
+Tiantan,LightGBM global+local,24,24,64.70633250033669
+Tiantan,Persistence,1,24,12.286713286713287
+Tiantan,Persistence,6,24,40.81118881118881
+Tiantan,Persistence,24,24,79.1048951048951
+Tiantan,Seasonal day,1,24,78.41958041958041
+Tiantan,Seasonal day,6,24,80.55944055944056
+Tiantan,Seasonal day,24,24,79.1048951048951
+Tiantan,Seasonal week,1,168,106.11888111888112
+Tiantan,Seasonal week,6,168,104.00699300699301
+Tiantan,Seasonal week,24,168,109.39160839160839
+Wanliu,Chronos-2,1,72,10.107126404639004
+Wanliu,Chronos-2,6,720,35.891941537662426
+Wanliu,Chronos-2,24,720,56.580744230828316
+Wanliu,LightGBM global,1,24,10.740801625063863
+Wanliu,LightGBM global,6,24,35.766472585110755
+Wanliu,LightGBM global,24,24,62.45544869635701
+Wanliu,LightGBM global+local,1,24,10.392174084973044
+Wanliu,LightGBM global+local,6,24,36.08923031601405
+Wanliu,LightGBM global+local,24,24,61.52701539182114
+Wanliu,Persistence,1,24,10.387755102040817
+Wanliu,Persistence,6,24,36.156462585034014
+Wanliu,Persistence,24,24,71.02721088435374
+Wanliu,Seasonal day,1,24,76.48979591836735
+Wanliu,Seasonal day,6,24,80.53061224489795
+Wanliu,Seasonal day,24,24,71.02721088435374
+Wanliu,Seasonal week,1,168,99.72789115646259
+Wanliu,Seasonal week,6,168,92.40136054421768
+Wanliu,Seasonal week,24,168,98.41496598639456
+Wanshouxigong,Chronos-2,1,720,13.130632755674165
+Wanshouxigong,Chronos-2,6,168,43.376135740609
+Wanshouxigong,Chronos-2,24,168,69.81723539418188
+Wanshouxigong,LightGBM global,1,24,15.28689556071391
+Wanshouxigong,LightGBM global,6,24,43.17943782541252
+Wanshouxigong,LightGBM global,24,24,68.84520110847858
+Wanshouxigong,LightGBM global+local,1,24,16.038020178345786
+Wanshouxigong,LightGBM global+local,6,24,42.36181170384083
+Wanshouxigong,LightGBM global+local,24,24,68.76505101674856
+Wanshouxigong,Persistence,1,24,14.806896551724137
+Wanshouxigong,Persistence,6,24,45.08275862068965
+Wanshouxigong,Persistence,24,24,83.97241379310344
+Wanshouxigong,Seasonal day,1,24,85.26896551724138
+Wanshouxigong,Seasonal day,6,24,84.91724137931034
+Wanshouxigong,Seasonal day,24,24,83.97241379310344
+Wanshouxigong,Seasonal week,1,168,113.46206896551725
+Wanshouxigong,Seasonal week,6,168,106.56551724137931
+Wanshouxigong,Seasonal week,24,168,115.8

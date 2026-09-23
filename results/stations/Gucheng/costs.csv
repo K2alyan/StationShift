@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Gucheng,Persistence,24,1,0.0,8.600007276982069e-06,0,0,0,False,128,cpu
+Gucheng,Persistence,72,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,168,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,720,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,2160,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,24,1,0.0,8.90000956133008e-06,0,0,0,False,128,cpu
+Gucheng,Seasonal day,72,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,168,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,720,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,2160,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal week,168,1,0.0,8.99998121894896e-06,0,0,0,False,128,cpu
+Gucheng,Seasonal week,720,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal week,2160,1,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,LightGBM calendar,0,1,0.1952072000131011,0.0014481999969575554,0,94505,6200,False,128,cpu
+Gucheng,LightGBM global,24,1,0.6338395999919157,0.0012952999968547374,0,83629,6200,False,128,cpu
+Gucheng,LightGBM global+local,24,1,0.0,0.0,0,83629,6200,True,128,cpu
+Gucheng,LightGBM global,72,1,0.0,0.0,0,83629,6200,True,128,cpu
+Gucheng,LightGBM global+local,72,1,0.6434233000036329,0.0015792999765835702,48,83629,6200,False,128,cpu
+Gucheng,LightGBM global,168,1,0.0,0.0,0,83629,6200,True,128,cpu
+Gucheng,LightGBM global+local,168,1,0.6392342000035569,0.001666500000283122,144,83629,6200,False,128,cpu
+Gucheng,LightGBM global,720,1,0.0,0.0,0,83629,6200,True,128,cpu
+Gucheng,LightGBM global+local,720,1,0.6795240999781527,0.0014931999903637916,645,83629,6200,False,128,cpu
+Gucheng,LightGBM global,2160,1,0.0,0.0,0,83629,6200,True,128,cpu
+Gucheng,LightGBM global+local,2160,1,0.6713962999929208,0.0012852000072598457,1931,83629,6200,False,128,cpu
+Gucheng,Persistence,24,6,0.0,1.3600016245618463e-05,0,0,0,False,128,cpu
+Gucheng,Persistence,72,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,168,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,720,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,2160,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,24,6,0.0,1.0300020221620798e-05,0,0,0,False,128,cpu
+Gucheng,Seasonal day,72,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,168,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,720,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,2160,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal week,168,6,0.0,1.1600001016631722e-05,0,0,0,False,128,cpu
+Gucheng,Seasonal week,720,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal week,2160,6,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,LightGBM calendar,0,6,0.20168830000329763,0.0014513999922201037,0,94482,6200,False,128,cpu
+Gucheng,LightGBM global,24,6,0.6442317999899387,0.0015856999962124974,0,83164,6200,False,128,cpu
+Gucheng,LightGBM global+local,24,6,0.0,0.0,0,83164,6200,True,128,cpu
+Gucheng,LightGBM global,72,6,0.0,0.0,0,83164,6200,True,128,cpu
+Gucheng,LightGBM global+local,72,6,0.6232197999779601,0.001361099974019453,43,83164,6200,False,128,cpu
+Gucheng,LightGBM global,168,6,0.0,0.0,0,83164,6200,True,128,cpu
+Gucheng,LightGBM global+local,168,6,0.6369873000076041,0.001729800016619265,139,83164,6200,False,128,cpu
+Gucheng,LightGBM global,720,6,0.0,0.0,0,83164,6200,True,128,cpu
+Gucheng,LightGBM global+local,720,6,0.6337905999971554,0.0014047999866306782,639,83164,6200,False,128,cpu
+Gucheng,LightGBM global,2160,6,0.0,0.0,0,83164,6200,True,128,cpu
+Gucheng,LightGBM global+local,2160,6,0.6261847999994643,0.0016020000039134175,1924,83164,6200,False,128,cpu
+Gucheng,Persistence,24,24,0.0,1.6700010746717453e-05,0,0,0,False,128,cpu
+Gucheng,Persistence,72,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,168,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,720,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Persistence,2160,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,24,24,0.0,1.990000600926578e-05,0,0,0,False,128,cpu
+Gucheng,Seasonal day,72,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,168,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,720,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal day,2160,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal week,168,24,0.0,1.5999976312741637e-05,0,0,0,False,128,cpu
+Gucheng,Seasonal week,720,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,Seasonal week,2160,24,0.0,0.0,0,0,0,True,128,cpu
+Gucheng,LightGBM calendar,0,24,0.20410200001788326,0.0014676999999210238,0,94416,6200,False,128,cpu
+Gucheng,LightGBM global,24,24,0.6352987999853212,0.0013315000105649233,0,82756,6200,False,128,cpu
+Gucheng,LightGBM global+local,24,24,0.0,0.0,0,82756,6200,True,128,cpu
+Gucheng,LightGBM global,72,24,0.0,0.0,0,82756,6200,True,128,cpu
+Gucheng,LightGBM global+local,72,24,0.6571554999973159,0.0015804999857209623,25,82756,6200,False,128,cpu
+Gucheng,LightGBM global,168,24,0.0,0.0,0,82756,6200,True,128,cpu
+Gucheng,LightGBM global+local,168,24,0.633462600002531,0.001435799989849329,121,82756,6200,False,128,cpu
+Gucheng,LightGBM global,720,24,0.0,0.0,0,82756,6200,True,128,cpu
+Gucheng,LightGBM global+local,720,24,0.6264672999968752,0.0013780000153928995,621,82756,6200,False,128,cpu
+Gucheng,LightGBM global,2160,24,0.0,0.0,0,82756,6200,True,128,cpu
+Gucheng,LightGBM global+local,2160,24,0.6792835999804083,0.0013515000173356384,1906,82756,6200,False,128,cpu
+Gucheng,Chronos-2,24,1,0.0,0.4381818999827374,0,0,0,False,128,cuda
+Gucheng,Chronos-2,24,6,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,24,24,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,72,1,0.0,0.17096119999769144,0,0,0,False,128,cuda
+Gucheng,Chronos-2,72,6,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,72,24,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,168,1,0.0,0.1849499000236392,0,0,0,False,128,cuda
+Gucheng,Chronos-2,168,6,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,168,24,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,720,1,0.0,0.31191930000204593,0,0,0,False,128,cuda
+Gucheng,Chronos-2,720,6,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,720,24,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,2160,1,0.0,0.8206363999925088,0,0,0,False,128,cuda
+Gucheng,Chronos-2,2160,6,0.0,0.0,0,0,0,True,128,cuda
+Gucheng,Chronos-2,2160,24,0.0,0.0,0,0,0,True,128,cuda

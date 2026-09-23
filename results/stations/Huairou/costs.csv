@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Huairou,Persistence,24,1,0.0,1.0399991879239678e-05,0,0,0,False,137,cpu
+Huairou,Persistence,72,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,168,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,720,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,2160,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,24,1,0.0,2.0899984519928694e-05,0,0,0,False,137,cpu
+Huairou,Seasonal day,72,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,168,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,720,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,2160,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal week,168,1,0.0,1.300001167692244e-05,0,0,0,False,137,cpu
+Huairou,Seasonal week,720,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal week,2160,1,0.0,0.0,0,0,0,True,137,cpu
+Huairou,LightGBM calendar,0,1,0.1977138000074774,0.0015564000059384853,0,94622,6200,False,137,cpu
+Huairou,LightGBM global,24,1,0.7130456000159029,0.001454899989767,0,84000,6200,False,137,cpu
+Huairou,LightGBM global+local,24,1,0.0,0.0,0,84000,6200,True,137,cpu
+Huairou,LightGBM global,72,1,0.0,0.0,0,84000,6200,True,137,cpu
+Huairou,LightGBM global+local,72,1,0.6623311000003014,0.0014161999861244112,24,84000,6200,False,137,cpu
+Huairou,LightGBM global,168,1,0.0,0.0,0,84000,6200,True,137,cpu
+Huairou,LightGBM global+local,168,1,0.6684708000102546,0.0014820999931544065,60,84000,6200,False,137,cpu
+Huairou,LightGBM global,720,1,0.0,0.0,0,84000,6200,True,137,cpu
+Huairou,LightGBM global+local,720,1,0.6772510999871884,0.001330200000666082,568,84000,6200,False,137,cpu
+Huairou,LightGBM global,2160,1,0.0,0.0,0,84000,6200,True,137,cpu
+Huairou,LightGBM global+local,2160,1,0.6973155000014231,0.0013863000203855336,1804,84000,6200,False,137,cpu
+Huairou,Persistence,24,6,0.0,1.6699981642886996e-05,0,0,0,False,137,cpu
+Huairou,Persistence,72,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,168,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,720,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,2160,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,24,6,0.0,6.999995093792677e-06,0,0,0,False,137,cpu
+Huairou,Seasonal day,72,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,168,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,720,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,2160,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal week,168,6,0.0,1.2200005585327744e-05,0,0,0,False,137,cpu
+Huairou,Seasonal week,720,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal week,2160,6,0.0,0.0,0,0,0,True,137,cpu
+Huairou,LightGBM calendar,0,6,0.19662019997485913,0.0015208999975584447,0,94600,6200,False,137,cpu
+Huairou,LightGBM global,24,6,0.6573439000057988,0.0018736000056378543,0,83523,6200,False,137,cpu
+Huairou,LightGBM global+local,24,6,0.0,0.0,0,83523,6200,True,137,cpu
+Huairou,LightGBM global,72,6,0.0,0.0,0,83523,6200,True,137,cpu
+Huairou,LightGBM global+local,72,6,0.6713155999896117,0.001499700010754168,23,83523,6200,False,137,cpu
+Huairou,LightGBM global,168,6,0.0,0.0,0,83523,6200,True,137,cpu
+Huairou,LightGBM global+local,168,6,0.6294562999974005,0.0013485000235959888,59,83523,6200,False,137,cpu
+Huairou,LightGBM global,720,6,0.0,0.0,0,83523,6200,True,137,cpu
+Huairou,LightGBM global+local,720,6,0.6251273000088986,0.00154980001389049,567,83523,6200,False,137,cpu
+Huairou,LightGBM global,2160,6,0.0,0.0,0,83523,6200,True,137,cpu
+Huairou,LightGBM global+local,2160,6,0.6796522999939043,0.0014666999923065305,1799,83523,6200,False,137,cpu
+Huairou,Persistence,24,24,0.0,2.3300002794712782e-05,0,0,0,False,137,cpu
+Huairou,Persistence,72,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,168,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,720,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Persistence,2160,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,24,24,0.0,1.4099990949034691e-05,0,0,0,False,137,cpu
+Huairou,Seasonal day,72,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,168,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,720,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal day,2160,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal week,168,24,0.0,1.1600001016631722e-05,0,0,0,False,137,cpu
+Huairou,Seasonal week,720,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,Seasonal week,2160,24,0.0,0.0,0,0,0,True,137,cpu
+Huairou,LightGBM calendar,0,24,0.20528679998824373,0.001627000019652769,0,94534,6200,False,137,cpu
+Huairou,LightGBM global,24,24,0.6990571999922395,0.001347400015220046,0,83140,6200,False,137,cpu
+Huairou,LightGBM global+local,24,24,0.0,0.0,0,83140,6200,True,137,cpu
+Huairou,LightGBM global,72,24,0.0,0.0,0,83140,6200,True,137,cpu
+Huairou,LightGBM global+local,72,24,0.644611800002167,0.0013676999951712787,9,83140,6200,False,137,cpu
+Huairou,LightGBM global,168,24,0.0,0.0,0,83140,6200,True,137,cpu
+Huairou,LightGBM global+local,168,24,0.6372648999968078,0.0014316000160761178,47,83140,6200,False,137,cpu
+Huairou,LightGBM global,720,24,0.0,0.0,0,83140,6200,True,137,cpu
+Huairou,LightGBM global+local,720,24,0.6310442000103649,0.0017455000197514892,556,83140,6200,False,137,cpu
+Huairou,LightGBM global,2160,24,0.0,0.0,0,83140,6200,True,137,cpu
+Huairou,LightGBM global+local,2160,24,0.6358485000091605,0.0014211999950930476,1786,83140,6200,False,137,cpu
+Huairou,Chronos-2,24,1,0.0,0.5185601999983191,0,0,0,False,137,cuda
+Huairou,Chronos-2,24,6,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,24,24,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,72,1,0.0,0.20303380000405014,0,0,0,False,137,cuda
+Huairou,Chronos-2,72,6,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,72,24,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,168,1,0.0,0.19940650000353344,0,0,0,False,137,cuda
+Huairou,Chronos-2,168,6,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,168,24,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,720,1,0.0,0.3316667999897618,0,0,0,False,137,cuda
+Huairou,Chronos-2,720,6,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,720,24,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,2160,1,0.0,0.8892829999967944,0,0,0,False,137,cuda
+Huairou,Chronos-2,2160,6,0.0,0.0,0,0,0,True,137,cuda
+Huairou,Chronos-2,2160,24,0.0,0.0,0,0,0,True,137,cuda

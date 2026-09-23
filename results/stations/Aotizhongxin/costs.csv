@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Aotizhongxin,Persistence,24,1,0.0,1.4899997040629387e-05,0,0,0,False,140,cpu
+Aotizhongxin,Persistence,72,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,168,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,720,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,2160,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,24,1,0.0,2.2799998987466097e-05,0,0,0,False,140,cpu
+Aotizhongxin,Seasonal day,72,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,168,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,720,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,2160,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal week,168,1,0.0,9.000010322779417e-06,0,0,0,False,140,cpu
+Aotizhongxin,Seasonal week,720,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal week,2160,1,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,LightGBM calendar,0,1,0.2126288999861572,0.0029233999957796186,0,94590,6200,False,140,cpu
+Aotizhongxin,LightGBM global,24,1,0.679347900004359,0.0017170000064652413,0,83686,6200,False,140,cpu
+Aotizhongxin,LightGBM global+local,24,1,0.0,0.0,0,83686,6200,True,140,cpu
+Aotizhongxin,LightGBM global,72,1,0.0,0.0,0,83686,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,72,1,0.8063243999786209,0.0015857999969739467,35,83686,6200,False,140,cpu
+Aotizhongxin,LightGBM global,168,1,0.0,0.0,0,83686,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,168,1,0.7984912999963854,0.0015121999895200133,131,83686,6200,False,140,cpu
+Aotizhongxin,LightGBM global,720,1,0.0,0.0,0,83686,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,720,1,0.8282416999863926,0.002990800014231354,619,83686,6200,False,140,cpu
+Aotizhongxin,LightGBM global,2160,1,0.0,0.0,0,83686,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,2160,1,0.9262051999976393,0.001597900001797825,1733,83686,6200,False,140,cpu
+Aotizhongxin,Persistence,24,6,0.0,6.0399994254112244e-05,0,0,0,False,140,cpu
+Aotizhongxin,Persistence,72,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,168,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,720,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,2160,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,24,6,0.0,2.1299987565726042e-05,0,0,0,False,140,cpu
+Aotizhongxin,Seasonal day,72,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,168,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,720,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,2160,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal week,168,6,0.0,1.2500007869675756e-05,0,0,0,False,140,cpu
+Aotizhongxin,Seasonal week,720,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal week,2160,6,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,LightGBM calendar,0,6,0.24220310000237077,0.0017291999829467386,0,94573,6200,False,140,cpu
+Aotizhongxin,LightGBM global,24,6,0.8180269000004046,0.0024407999881077558,0,83204,6200,False,140,cpu
+Aotizhongxin,LightGBM global+local,24,6,0.0,0.0,0,83204,6200,True,140,cpu
+Aotizhongxin,LightGBM global,72,6,0.0,0.0,0,83204,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,72,6,0.7948602999967989,0.002755299996351823,35,83204,6200,False,140,cpu
+Aotizhongxin,LightGBM global,168,6,0.0,0.0,0,83204,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,168,6,0.9443558999919333,0.0015721999807283282,131,83204,6200,False,140,cpu
+Aotizhongxin,LightGBM global,720,6,0.0,0.0,0,83204,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,720,6,1.0134587999782525,0.0027045999886468053,619,83204,6200,False,140,cpu
+Aotizhongxin,LightGBM global,2160,6,0.0,0.0,0,83204,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,2160,6,0.8189093999972101,0.0028683000127784908,1727,83204,6200,False,140,cpu
+Aotizhongxin,Persistence,24,24,0.0,4.230000195093453e-05,0,0,0,False,140,cpu
+Aotizhongxin,Persistence,72,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,168,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,720,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Persistence,2160,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,24,24,0.0,4.539999645203352e-05,0,0,0,False,140,cpu
+Aotizhongxin,Seasonal day,72,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,168,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,720,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal day,2160,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal week,168,24,0.0,2.2000021999701858e-05,0,0,0,False,140,cpu
+Aotizhongxin,Seasonal week,720,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,Seasonal week,2160,24,0.0,0.0,0,0,0,True,140,cpu
+Aotizhongxin,LightGBM calendar,0,24,0.24092209999798797,0.002794600004563108,0,94507,6200,False,140,cpu
+Aotizhongxin,LightGBM global,24,24,0.7147765000117943,0.0015001000137999654,0,82786,6200,False,140,cpu
+Aotizhongxin,LightGBM global+local,24,24,0.0,0.0,0,82786,6200,True,140,cpu
+Aotizhongxin,LightGBM global,72,24,0.0,0.0,0,82786,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,72,24,0.7642353000119328,0.0015496999840252101,24,82786,6200,False,140,cpu
+Aotizhongxin,LightGBM global,168,24,0.0,0.0,0,82786,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,168,24,0.7736717000079807,0.0015787000011187047,120,82786,6200,False,140,cpu
+Aotizhongxin,LightGBM global,720,24,0.0,0.0,0,82786,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,720,24,0.726682400010759,0.0022159000218380243,608,82786,6200,False,140,cpu
+Aotizhongxin,LightGBM global,2160,24,0.0,0.0,0,82786,6200,True,140,cpu
+Aotizhongxin,LightGBM global+local,2160,24,0.8268239000171889,0.0030835000216029584,1697,82786,6200,False,140,cpu
+Aotizhongxin,Chronos-2,24,1,0.0,0.8123893000010867,0,0,0,False,140,cuda
+Aotizhongxin,Chronos-2,24,6,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,24,24,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,72,1,0.0,0.269959099998232,0,0,0,False,140,cuda
+Aotizhongxin,Chronos-2,72,6,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,72,24,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,168,1,0.0,0.31602850000490434,0,0,0,False,140,cuda
+Aotizhongxin,Chronos-2,168,6,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,168,24,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,720,1,0.0,0.3602610999951139,0,0,0,False,140,cuda
+Aotizhongxin,Chronos-2,720,6,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,720,24,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,2160,1,0.0,0.9320612000010442,0,0,0,False,140,cuda
+Aotizhongxin,Chronos-2,2160,6,0.0,0.0,0,0,0,True,140,cuda
+Aotizhongxin,Chronos-2,2160,24,0.0,0.0,0,0,0,True,140,cuda

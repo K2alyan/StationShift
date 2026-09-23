@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ColdStartAQ · Measured forecasts</title>
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<header><a class="brand" href="./">ColdStart<span>AQ</span></a><span class="badge">MEASURED · UCI BEIJING</span></header>
+<main>
+<section class="intro"><p class="eyebrow">ZERO-SHOT TASK ADAPTATION / 12 STATION HOLDOUTS</p>
+<h1>How much history<br>does a new sensor need?</h1>
+<p class="lede">Explore PM2.5 forecasts from a pretrained foundation model and conventional baselines, on the same observed targets.</p>
+<div class="facts"><div><b>12</b><span>held-out stations</span></div><div><b>1 / 6 / 24h</b><span>forecast horizons</span></div><div><b id="total">1,596</b><span>shared station-origin pairs</span></div></div>
+</section>
+<section class="explorer" aria-labelledby="explorer-title">
+<div class="section-title"><h2 id="explorer-title">Inspect a forecast series</h2><span>September 2016 – February 2017</span></div>
+<div class="controls">
+<label>Station<select id="station"></select></label>
+<label>Horizon<select id="horizon"><option value="1">+1 hour</option><option value="6">+6 hours</option><option value="24" selected>+24 hours</option></select></label>
+<label>Local history window<select id="history"><option value="0">0 hours</option><option value="24">1 day</option><option value="72">3 days</option><option value="168">7 days</option><option value="720" selected>30 days</option><option value="2160">90 days</option></select></label>
+<label>Model<select id="model"></select></label>
+</div>
+<p id="status" role="status">Loading measured predictions…</p>
+<div id="result" hidden>
+<div class="metrics"><div><span>MAE · µg/m³</span><strong id="mae"></strong></div><div><span>RMSE · µg/m³</span><strong id="rmse"></strong></div><div><span>High-PM MAE</span><strong id="high"></strong></div><div><span>80% interval coverage</span><strong id="coverage"></strong></div></div>
+<div class="legend"><span class="observed">Observed</span><span class="prediction">Forecast</span><span id="interval-legend">Shading: central 80% interval</span></div>
+<div class="chart-wrap"><svg id="chart" viewBox="0 0 1000 340" role="img" aria-labelledby="chart-title chart-desc"><title id="chart-title">Observed and forecast PM2.5</title><desc id="chart-desc">Sampled target timestamps over the fixed test period. The exact values are available in the table and CSV.</desc></svg></div>
+<p class="caption">Target time shown in Beijing time (UTC+08). Origins are sampled every 25 hours, with gaps from common eligibility rules. Connecting lines guide the eye; they do not represent hourly predictions.</p>
+<p id="regime" class="regime"></p>
+<details><summary>View all measured values</summary><div class="table-scroll"><table><thead><tr><th>Target time · Beijing</th><th>Observed</th><th>Forecast</th><th>Lower 10%</th><th>Upper 90%</th></tr></thead><tbody id="rows"></tbody></table></div></details>
+<button id="download" type="button">Download this series · CSV</button>
+</div>
+</section>
+<section class="notes"><article><p class="eyebrow">WHAT THE EXPERIMENT FOUND</p><h2>More context helps.<br>It does not always win.</h2><p>Chronos-2 reached within 10% of its own 90-day MAE with 3 days at +1h and 7 days at +6h/+24h. At +24h, its pooled MAE was 58.43 with 30 days of context, versus 62.33 for global LightGBM and 76.44 for persistence.</p><p>The 30-day result is a measured comparison, not a test-selected deployment recommendation. Chronos’s 90-day context was worse at the two longer horizons.</p></article>
+<article><p class="eyebrow">READ THE BUDGET CAREFULLY</p><h2>Context is different<br>from fitting data.</h2><p>Chronos uses rolling context without parameter updates. Global LightGBM learns from the other 11 stations; global+local adds a frozen pre-test fitting window. These curves compare allowed window lengths, not total readings acquired after one physical deployment.</p><p>0h is supported only by the donor-trained calendar model. High PM means a target above the development 90th percentile (168 µg/m³), with no health or regulatory interpretation. Pretraining overlap is uncertain.</p></article></section>
+</main>
+<footer>ColdStartAQ · Original UCI dataset · Chronos-2 + LightGBM · Saved predictions, no live model calls</footer>
+</body></html>

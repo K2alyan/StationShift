@@ -1,0 +1,88 @@
+station,model,history_hours,horizon,train_seconds,inference_seconds,local_fit_samples,donor_fit_samples,fitted_leaves,reused,n_origins,device
+Shunyi,Persistence,24,1,0.0,9.899988071992993e-06,0,0,0,False,119,cpu
+Shunyi,Persistence,72,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,168,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,720,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,2160,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,24,1,0.0,8.500006515532732e-06,0,0,0,False,119,cpu
+Shunyi,Seasonal day,72,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,168,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,720,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,2160,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal week,168,1,0.0,6.80002267472446e-06,0,0,0,False,119,cpu
+Shunyi,Seasonal week,720,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal week,2160,1,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,LightGBM calendar,0,1,0.1991122999752406,0.001497200020821765,0,94532,6200,False,119,cpu
+Shunyi,LightGBM global,24,1,0.7475222999928519,0.0013981999945826828,0,83813,6200,False,119,cpu
+Shunyi,LightGBM global+local,24,1,0.0,0.0,0,83813,6200,True,119,cpu
+Shunyi,LightGBM global,72,1,0.0,0.0,0,83813,6200,True,119,cpu
+Shunyi,LightGBM global+local,72,1,0.678790999983903,0.0013760000001639128,48,83813,6200,False,119,cpu
+Shunyi,LightGBM global,168,1,0.0,0.0,0,83813,6200,True,119,cpu
+Shunyi,LightGBM global+local,168,1,0.7036662000173237,0.0013482999929692596,119,83813,6200,False,119,cpu
+Shunyi,LightGBM global,720,1,0.0,0.0,0,83813,6200,True,119,cpu
+Shunyi,LightGBM global+local,720,1,0.6656519999960437,0.0014010000159032643,562,83813,6200,False,119,cpu
+Shunyi,LightGBM global,2160,1,0.0,0.0,0,83813,6200,True,119,cpu
+Shunyi,LightGBM global+local,2160,1,0.68149370001629,0.0013608000008389354,1543,83813,6200,False,119,cpu
+Shunyi,Persistence,24,6,0.0,2.7900008717551827e-05,0,0,0,False,119,cpu
+Shunyi,Persistence,72,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,168,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,720,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,2160,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,24,6,0.0,1.3500015484169126e-05,0,0,0,False,119,cpu
+Shunyi,Seasonal day,72,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,168,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,720,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,2160,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal week,168,6,0.0,7.099995855242014e-06,0,0,0,False,119,cpu
+Shunyi,Seasonal week,720,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal week,2160,6,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,LightGBM calendar,0,6,0.22005219999118708,0.0014795000024605542,0,94530,6200,False,119,cpu
+Shunyi,LightGBM global,24,6,0.7160010999941733,0.001435199985280633,0,83345,6200,False,119,cpu
+Shunyi,LightGBM global+local,24,6,0.0,0.0,0,83345,6200,True,119,cpu
+Shunyi,LightGBM global,72,6,0.0,0.0,0,83345,6200,True,119,cpu
+Shunyi,LightGBM global+local,72,6,0.6451159999996889,0.0013022000202909112,43,83345,6200,False,119,cpu
+Shunyi,LightGBM global,168,6,0.0,0.0,0,83345,6200,True,119,cpu
+Shunyi,LightGBM global+local,168,6,0.6631355000135954,0.0013844000059179962,114,83345,6200,False,119,cpu
+Shunyi,LightGBM global,720,6,0.0,0.0,0,83345,6200,True,119,cpu
+Shunyi,LightGBM global+local,720,6,0.6586820000084117,0.001374299987219274,554,83345,6200,False,119,cpu
+Shunyi,LightGBM global,2160,6,0.0,0.0,0,83345,6200,True,119,cpu
+Shunyi,LightGBM global+local,2160,6,0.6709744999825489,0.0015445999742951244,1523,83345,6200,False,119,cpu
+Shunyi,Persistence,24,24,0.0,2.1400017431005836e-05,0,0,0,False,119,cpu
+Shunyi,Persistence,72,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,168,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,720,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Persistence,2160,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,24,24,0.0,2.220002352260053e-05,0,0,0,False,119,cpu
+Shunyi,Seasonal day,72,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,168,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,720,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal day,2160,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal week,168,24,0.0,2.2100022761151195e-05,0,0,0,False,119,cpu
+Shunyi,Seasonal week,720,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,Seasonal week,2160,24,0.0,0.0,0,0,0,True,119,cpu
+Shunyi,LightGBM calendar,0,24,0.24612599998363294,0.0014089999895077199,0,94464,6200,False,119,cpu
+Shunyi,LightGBM global,24,24,0.6477541999774985,0.0014728000096511096,0,82922,6200,False,119,cpu
+Shunyi,LightGBM global+local,24,24,0.0,0.0,0,82922,6200,True,119,cpu
+Shunyi,LightGBM global,72,24,0.0,0.0,0,82922,6200,True,119,cpu
+Shunyi,LightGBM global+local,72,24,0.646107500011567,0.002586200018413365,25,82922,6200,False,119,cpu
+Shunyi,LightGBM global,168,24,0.0,0.0,0,82922,6200,True,119,cpu
+Shunyi,LightGBM global+local,168,24,0.7118176000076346,0.001399700006004423,96,82922,6200,False,119,cpu
+Shunyi,LightGBM global,720,24,0.0,0.0,0,82922,6200,True,119,cpu
+Shunyi,LightGBM global+local,720,24,0.6770640000177082,0.0015742999967187643,534,82922,6200,False,119,cpu
+Shunyi,LightGBM global,2160,24,0.0,0.0,0,82922,6200,True,119,cpu
+Shunyi,LightGBM global+local,2160,24,0.7050062000053003,0.0014309000107459724,1501,82922,6200,False,119,cpu
+Shunyi,Chronos-2,24,1,0.0,0.4632526999921538,0,0,0,False,119,cuda
+Shunyi,Chronos-2,24,6,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,24,24,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,72,1,0.0,0.19922449998557568,0,0,0,False,119,cuda
+Shunyi,Chronos-2,72,6,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,72,24,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,168,1,0.0,0.19898539999849163,0,0,0,False,119,cuda
+Shunyi,Chronos-2,168,6,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,168,24,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,720,1,0.0,0.29818869999144226,0,0,0,False,119,cuda
+Shunyi,Chronos-2,720,6,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,720,24,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,2160,1,0.0,0.7699694999901112,0,0,0,False,119,cuda
+Shunyi,Chronos-2,2160,6,0.0,0.0,0,0,0,True,119,cuda
+Shunyi,Chronos-2,2160,24,0.0,0.0,0,0,0,True,119,cuda
