@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from coldstartaq.report import score, thresholds, confidence
+from stationshift.report import score, thresholds, confidence
 
 def test_metrics_with_hand_computed_forecasts():
     g=pd.DataFrame(dict(observed=[0.,10.],prediction=[2.,6.],mase_scale=[2.,2.],high_pm=[False,True],

@@ -1,4 +1,4 @@
-# ColdStartAQ measured results
+# StationShift measured results
 
 All 12 station holdouts completed under the frozen protocol. **1596 retained station-origin pairs** from 2076 candidates, each scored at 1, 6 and 24 hours. PM2.5 errors are µg/m³.
 

@@ -3,6 +3,9 @@
   "desktop": "1440x1100",
   "mobile": "390x844",
   "checks": [
+    "StationShift desktop/mobile branding",
+    "page title and description",
+    "renamed CSV filename",
     "default measured MAE",
     "all selectors",
     "unsupported budgets",

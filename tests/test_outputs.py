@@ -4,8 +4,8 @@ import json
 import numpy as np
 import pandas as pd
 import pytest
-from coldstartaq.data import ROOT, load, features, TEST_START, training_indices
-from coldstartaq.report import aggregate
+from stationshift.data import ROOT, load, features, TEST_START, training_indices
+from stationshift.report import aggregate
 from lightgbm import Booster
 
 def test_every_setting_uses_identical_measured_targets():

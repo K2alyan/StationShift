@@ -1,4 +1,4 @@
-"""Run: python -m coldstartaq.benchmark --station Aotizhongxin (or --all)."""
+"""Run: python -m stationshift.benchmark --station Aotizhongxin (or --all)."""
 import argparse
 import json
 import platform

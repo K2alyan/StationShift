@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from coldstartaq.data import features, training_indices, origins, load, TEST_START
+from stationshift.data import features, training_indices, origins, load, TEST_START
 
 def test_features_cannot_see_future():
     df=load()['Aotizhongxin'].iloc[:200].copy()

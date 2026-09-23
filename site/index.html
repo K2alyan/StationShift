@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ColdStartAQ · Measured forecasts</title>
+<title>StationShift: Time-Series Foundation Models Under New-Station Distribution Shift</title>
+<meta name="description" content="When do time-series foundation models transfer to a new environmental monitoring station?">
 <link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
 </head>
 <body>
-<header><a class="brand" href="./">ColdStart<span>AQ</span></a><span class="badge">MEASURED · UCI BEIJING</span></header>
+<header><a class="brand" href="./">Station<span>Shift</span></a><span class="badge">MEASURED · UCI BEIJING</span></header>
 <main>
-<section class="intro"><p class="eyebrow">ZERO-SHOT TASK ADAPTATION / 12 STATION HOLDOUTS</p>
-<h1>How much history<br>does a new sensor need?</h1>
-<p class="lede">Explore PM2.5 forecasts from a pretrained foundation model and conventional baselines, on the same observed targets.</p>
+<section class="intro"><p class="eyebrow">NEW-STATION TRANSFER / 12 STATION HOLDOUTS</p>
+<h1>StationShift</h1>
+<h2 class="subtitle">Time-Series Foundation Models Under New-Station Distribution Shift</h2>
+<p class="lede">When does a pretrained time-series foundation model become competitive at a monitoring station held out from task-specific training?</p>
+<p class="intro-method">Each Beijing station is held out in turn. Chronos-2 receives increasing PM2.5 context without task-specific fitting; LightGBM learns from the other 11 stations. This compares transfer strategies under different information resources.</p>
 <div class="facts"><div><b>12</b><span>held-out stations</span></div><div><b>1 / 6 / 24h</b><span>forecast horizons</span></div><div><b id="total">1,596</b><span>shared station-origin pairs</span></div></div>
 </section>
 <section class="explorer" aria-labelledby="explorer-title">
@@ -35,5 +38,5 @@
 <section class="notes"><article><p class="eyebrow">WHAT THE EXPERIMENT FOUND</p><h2>More context helps.<br>It does not always win.</h2><p>Chronos-2 reached within 10% of its own 90-day MAE with 3 days at +1h and 7 days at +6h/+24h. At +24h, its pooled MAE was 58.43 with 30 days of context, versus 62.33 for global LightGBM and 76.44 for persistence.</p><p>The 30-day result is a measured comparison, not a test-selected deployment recommendation. Chronos’s 90-day context was worse at the two longer horizons.</p></article>
 <article><p class="eyebrow">READ THE BUDGET CAREFULLY</p><h2>Context is different<br>from fitting data.</h2><p>Chronos uses rolling context without parameter updates. Global LightGBM learns from the other 11 stations; global+local adds a frozen pre-test fitting window. These curves compare allowed window lengths, not total readings acquired after one physical deployment.</p><p>0h is supported only by the donor-trained calendar model. High PM means a target above the development 90th percentile (168 µg/m³), with no health or regulatory interpretation. Pretraining overlap is uncertain.</p></article></section>
 </main>
-<footer>ColdStartAQ · Original UCI dataset · Chronos-2 + LightGBM · Saved predictions, no live model calls</footer>
+<footer>StationShift · Original UCI dataset · Chronos-2 + LightGBM · Saved predictions, no live model calls</footer>
 </body></html>

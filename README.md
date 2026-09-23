@@ -1,8 +1,31 @@
-# ColdStartAQ
+# StationShift
 
-**Zero- and few-shot air-quality forecasting with time-series foundation models.**
+**Time-Series Foundation Models Under New-Station Distribution Shift**
 
-How much station-specific history does a pretrained model need to forecast PM2.5? This compact benchmark uses the original UCI Beijing Multi-Site Air Quality dataset, leave-one-station-out LightGBM models, persistence, daily/weekly seasonal forecasts and frozen Amazon Chronos-2.
+> When does a pretrained time-series foundation model become competitive at a monitoring station held out from task-specific training?
+
+All 12 Beijing monitoring stations are held out in turn. One pretrained model, **Chronos-2**, receives increasing target-station PM2.5 context with no task-specific fitting. **LightGBM** learns from the other 11 stations. Persistence and daily/weekly seasonal forecasts provide simple references. The experiment studies new-station transfer and context-budget effects on PM2.5 forecasts at +1, +6 and +24 hours.
+
+## Key findings
+
+* **Donor-trained LightGBM is already competitive with 24 hours of target-station inference history.** Its pooled +24h MAE is **62.33 µg/m³**, without target-station fitting.
+* **Chronos-2 improves longer-horizon average forecasts with sufficient context.** At 30 days, its +24h MAE is **58.43 µg/m³**, versus **62.33** for global LightGBM and **76.44** for persistence. These are descriptive measured comparisons, not evidence of statistical superiority over LightGBM. More context is not uniformly better: Chronos's 90-day context performs worse at +6h and +24h than its 30-day context.
+* **Pretraining did not automatically buy local-data efficiency.** Chronos reaches within 10% of its own 90-day MAE with **3d / 7d / 7d** at +1h / +6h / +24h; global LightGBM meets its corresponding within-model threshold with **1d** of inference context. This does not establish that Chronos needs less local history.
+* **Long-horizon extreme-PM uncertainty is a major failure.** With 30-day context, Chronos's nominal 80% interval covers **67.7%** of +24h targets overall and only **59.6%** of high-PM targets; high-PM bias is **−104.31 µg/m³**. Lower average error does not imply calibrated uncertainty during extremes.
+
+![Pooled context-budget curves for all 12 held-out stations, by forecast horizon](results/figures/adaptation_pooled.png)
+
+## What is being compared?
+
+| Strategy | Task-specific fitting | Target-station information at inference |
+|---|---|---|
+| Chronos-2 | None; frozen pretrained weights | H hours of PM2.5 context; no covariates |
+| Global LightGBM | Other 11 stations only | 40 features spanning pollutants, weather, calendar variables and 24 hours of history |
+| Global+local LightGBM | Donors plus an H-hour pre-test target-station fitting window | Same 40-feature, 24-hour inference representation |
+
+This compares new-station transfer strategies under different information resources, not identical-input model architectures or equal data budgets. A context budget is a history-window length, **not days elapsed since deployment**. Chronos has no parameter adaptation in this experiment.
+
+> **Scope:** one city, 12 stations, one evaluated TSFM; unknown pretraining overlap; history-window comparison rather than literal deployment age; complete-history eligibility excludes severe recent outages.
 
 Start with [measured results](docs/RESULTS.md), [findings](docs/FINDINGS.md), or the [first milestone](docs/MILESTONE_1.md). [Dataset](docs/DATASET.md) and [frozen protocol](docs/PROTOCOL.md) explain provenance, chronological boundaries and exclusions. No model is tuned on test outcomes.
 
@@ -18,17 +41,17 @@ python -m venv .venv
 .\.venv\Scripts\python.exe scripts/audit.py
 .\.venv\Scripts\python.exe scripts/model_acquire.py
 .\.venv\Scripts\python.exe -m pytest -q
-.\.venv\Scripts\python.exe -m coldstartaq.benchmark --station Aotizhongxin
-.\.venv\Scripts\python.exe -m coldstartaq.report
-.\.venv\Scripts\python.exe -m coldstartaq.benchmark --all
-.\.venv\Scripts\python.exe -m coldstartaq.report
+.\.venv\Scripts\python.exe -m stationshift.benchmark --station Aotizhongxin
+.\.venv\Scripts\python.exe -m stationshift.report
+.\.venv\Scripts\python.exe -m stationshift.benchmark --all
+.\.venv\Scripts\python.exe -m stationshift.report
 .\.venv\Scripts\python.exe scripts/build_site.py
 .\.venv\Scripts\python.exe -m http.server 8000 --bind 127.0.0.1 --directory site
 ```
 
 Open http://127.0.0.1:8000 for the results explorer. It is a static site, with no API keys, build system, remote scripts or services. It displays saved measured predictions only.
 
-For the browser checks, install `requirements-browser.txt`, run `python -m playwright install chromium`, then run `python scripts/check_site.py` while the server is running. Desktop/mobile screenshots and the check summary are in `results/browser/`.
+Test commands and browser-check evidence are in [verification](docs/VERIFICATION.md).
 
 Acquisition downloads each archive/checkpoint once and checks SHA256 pins on later runs. Generated data and checkpoint weights are ignored; manifests are committed. Models and predictions are saved per station. Runs resume stations with `complete.json`; to recompute, archive that station's result directory first. Do not mix results from changed code, settings or checkpoints. `results/frozen.json` rejects changes to the protocol or development-derived scoring constants. Raw booster files are local artifacts and can be regenerated.
 
@@ -52,6 +75,4 @@ Source dataset: Song Chen (2017), [Beijing Multi-Site Air Quality, UCI](https://
 
 ## Validation
 
-The measured run passed 11 tests covering causal feature footprints, fitting-window boundaries, forecast alignment, hand-computed metric arithmetic, sustained history thresholds, paired-bootstrap behavior, identical forecast cohorts, saved-metric recomputation, saved-booster predictions and site export consistency. The saved-booster check skips on a checkout without regenerated ignored booster files.
-
-Headless Chromium checks passed at desktop and mobile sizes, including all selectors, unavailable budgets, quantile availability, CSV download, keyboard focus, responsive overflow and failed-data loading. Evidence is saved in `results/browser/`. The in-app browser had no connection, so the browser check used locally installed standalone Chromium.
+The existing suite has 11 checks covering chronology, forecast alignment, metrics and saved outputs. Desktop/mobile browser checks verify the measured explorer. See [verification](docs/VERIFICATION.md) for commands, evidence and environment details. The project name, package and repository slug are `StationShift`, `stationshift` and `stationshift`, respectively.
