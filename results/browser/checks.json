@@ -1,7 +1,19 @@
 {
   "browser": "headless Chromium",
-  "desktop": "1440x1100",
-  "mobile": "390x844",
+  "viewports": [
+    1440,
+    1024,
+    768,
+    390
+  ],
+  "valid_configurations": 1044,
+  "selector_states_per_desktop_mobile": 1512,
+  "screenshots": [
+    "editorial-1440.png",
+    "editorial-1024.png",
+    "editorial-768.png",
+    "editorial-390.png"
+  ],
   "checks": [
     "StationShift desktop/mobile branding",
     "page title and description",
@@ -11,9 +23,16 @@
     "unsupported budgets",
     "interval availability",
     "CSV download",
+    "measured-values keyboard toggle",
     "local fallback explanation",
     "keyboard tab",
-    "mobile overflow",
+    "keyboard chart scrolling",
+    "reduced motion",
+    "navigation anchors",
+    "four-width overflow",
+    "exact-state LightGBM deltas",
+    "coverage percentage-point sign",
+    "all valid and unsupported states",
     "failed data request"
   ],
   "page_errors": [],

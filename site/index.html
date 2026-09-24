@@ -7,36 +7,39 @@
 <link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
 </head>
 <body>
-<header><a class="brand" href="./">Station<span>Shift</span></a><span class="badge">MEASURED · UCI BEIJING</span></header>
+<a class="skip-link" href="#explore">Skip to the explorer</a>
+<header class="site-header"><div class="header-inner"><a class="brand" href="./">StationShift</a><nav aria-label="Main navigation"><a href="#explore">Explore</a><a href="#method">Method</a><a href="#data">Data</a><a href="#about">About</a></nav><span class="badge">MEASURED · UCI BEIJING</span></div></header>
 <main>
-<section class="intro"><p class="eyebrow">NEW-STATION TRANSFER / 12 STATION HOLDOUTS</p>
-<h1>StationShift</h1>
-<h2 class="subtitle">Time-Series Foundation Models Under New-Station Distribution Shift</h2>
+<section class="intro" aria-labelledby="project-title">
+<div class="hero-copy"><p class="eyebrow">NEW-STATION TRANSFER / 12 STATION HOLDOUTS</p>
+<h1 id="project-title">StationShift</h1><h2 class="subtitle">Time-Series Foundation Models<br>Under New-Station Distribution Shift</h2>
 <p class="lede">When does a pretrained time-series foundation model become competitive at a monitoring station held out from task-specific training?</p>
-<p class="intro-method">Each Beijing station is held out in turn. Chronos-2 receives increasing PM2.5 context without task-specific fitting; LightGBM learns from the other 11 stations. This compares transfer strategies under different information resources.</p>
-<div class="facts"><div><b>12</b><span>held-out stations</span></div><div><b>1 / 6 / 24h</b><span>forecast horizons</span></div><div><b id="total">1,596</b><span>shared station-origin pairs</span></div></div>
+<p class="intro-method">Each Beijing station is held out in turn. Chronos-2 receives increasing PM2.5 context without task-specific fitting. LightGBM learns from the other 11 stations. This compares new-station transfer strategies under different information resources.</p>
+<a class="text-link" href="#method">Learn about the study <span aria-hidden="true">→</span></a></div>
+<figure class="hero-visual"><p class="eyebrow">TWELVE STATIONS.<br>A SHARED CITY.<br>DIFFERENT HISTORIES.</p><img src="assets/station-traces.svg" width="560" height="370" alt="Twelve layered traces derived from observed PM2.5 at the held-out Beijing stations."><figcaption>Observed PM2.5, rendered as an abstract landscape.<br>Shared vertical scale · sampled test targets · not a map.</figcaption></figure>
 </section>
-<section class="explorer" aria-labelledby="explorer-title">
-<div class="section-title"><h2 id="explorer-title">Inspect a forecast series</h2><span>September 2016 – February 2017</span></div>
+<section class="facts" aria-label="Experiment in numbers"><div><b>12</b><span>held-out stations</span></div><div><b>1 / 6 / 24h</b><span>forecast horizons</span></div><div><b id="total">1,596</b><span>shared station–origin pairs</span></div><p>What transfers, and when,<br>in real-world time series?</p></section>
+<section id="explore" class="explorer" aria-labelledby="explorer-title" tabindex="-1">
+<div class="section-title"><div><p class="eyebrow">EXPLORATION</p><h2 id="explorer-title">Inspect a forecast series</h2><p>Select a station and configuration to explore predictions, errors, and uncertainty.</p></div><span>September 2016 – February 2017</span></div>
 <div class="controls">
-<label>Station<select id="station"></select></label>
-<label>Horizon<select id="horizon"><option value="1">+1 hour</option><option value="6">+6 hours</option><option value="24" selected>+24 hours</option></select></label>
-<label>Local history window<select id="history"><option value="0">0 hours</option><option value="24">1 day</option><option value="72">3 days</option><option value="168">7 days</option><option value="720" selected>30 days</option><option value="2160">90 days</option></select></label>
-<label>Model<select id="model"></select></label>
-</div>
-<p id="status" role="status">Loading measured predictions…</p>
-<div id="result" hidden>
-<div class="metrics"><div><span>MAE · µg/m³</span><strong id="mae"></strong></div><div><span>RMSE · µg/m³</span><strong id="rmse"></strong></div><div><span>High-PM MAE</span><strong id="high"></strong></div><div><span>80% interval coverage</span><strong id="coverage"></strong></div></div>
-<div class="legend"><span class="observed">Observed</span><span class="prediction">Forecast</span><span id="interval-legend">Shading: central 80% interval</span></div>
-<div class="chart-wrap"><svg id="chart" viewBox="0 0 1000 340" role="img" aria-labelledby="chart-title chart-desc"><title id="chart-title">Observed and forecast PM2.5</title><desc id="chart-desc">Sampled target timestamps over the fixed test period. The exact values are available in the table and CSV.</desc></svg></div>
-<p class="caption">Target time shown in Beijing time (UTC+08). Origins are sampled every 25 hours, with gaps from common eligibility rules. Connecting lines guide the eye; they do not represent hourly predictions.</p>
-<p id="regime" class="regime"></p>
-<details><summary>View all measured values</summary><div class="table-scroll"><table><thead><tr><th>Target time · Beijing</th><th>Observed</th><th>Forecast</th><th>Lower 10%</th><th>Upper 90%</th></tr></thead><tbody id="rows"></tbody></table></div></details>
-<button id="download" type="button">Download this series · CSV</button>
-</div>
-</section>
-<section class="notes"><article><p class="eyebrow">WHAT THE EXPERIMENT FOUND</p><h2>More context helps.<br>It does not always win.</h2><p>Chronos-2 reached within 10% of its own 90-day MAE with 3 days at +1h and 7 days at +6h/+24h. At +24h, its pooled MAE was 58.43 with 30 days of context, versus 62.33 for global LightGBM and 76.44 for persistence.</p><p>The 30-day result is a measured comparison, not a test-selected deployment recommendation. Chronos’s 90-day context was worse at the two longer horizons.</p></article>
-<article><p class="eyebrow">READ THE BUDGET CAREFULLY</p><h2>Context is different<br>from fitting data.</h2><p>Chronos uses rolling context without parameter updates. Global LightGBM learns from the other 11 stations; global+local adds a frozen pre-test fitting window. These curves compare allowed window lengths, not total readings acquired after one physical deployment.</p><p>0h is supported only by the donor-trained calendar model. High PM means a target above the development 90th percentile (168 µg/m³), with no health or regulatory interpretation. Pretraining overlap is uncertain.</p></article></section>
+<label for="station">Station<select id="station"></select></label>
+<label for="horizon">Horizon<select id="horizon"><option value="1">+1 hour</option><option value="6">+6 hours</option><option value="24" selected>+24 hours</option></select></label>
+<label for="history">Local history window<select id="history"><option value="0">0 hours</option><option value="24">1 day</option><option value="72">3 days</option><option value="168">7 days</option><option value="720" selected>30 days</option><option value="2160">90 days</option></select></label>
+<label for="model">Model<select id="model"></select></label></div>
+<p id="status" role="status">Loading measured predictions…</p><div id="result" hidden>
+<div class="metrics"><div><span>MAE <small>(µg/m³)</small></span><strong id="mae"></strong><small class="delta" id="mae-delta" hidden></small></div><div><span>RMSE <small>(µg/m³)</small></span><strong id="rmse"></strong><small class="delta" id="rmse-delta" hidden></small></div><div><span>High-PM MAE <small>(µg/m³)</small></span><strong id="high"></strong><small class="delta" id="high-delta" hidden></small></div><div><span>80% interval coverage</span><strong id="coverage"></strong><small class="delta" id="coverage-delta" hidden></small></div></div>
+<p class="comparison-note">Where available, signed error differences use global LightGBM at the same station, horizon and context window; negative means lower error. Coverage differences are percentage points from nominal 80%. These are descriptive comparisons under <a href="#method">different information resources</a>.</p>
+<div class="legend" aria-label="Chart legend"><span class="observed">Observed</span><span class="prediction" id="forecast-legend">Chronos-2 forecast</span><span id="interval-legend">80% interval</span></div>
+<div class="chart-wrap" tabindex="0" role="region" aria-label="Forecast chart, scroll horizontally on small screens"><svg id="chart" viewBox="0 0 1000 420" role="img" aria-labelledby="chart-title chart-desc"><title id="chart-title">Observed and forecast PM2.5</title><desc id="chart-desc">Sampled target timestamps over the fixed test period. The exact values are available in the measured-values table and CSV.</desc></svg></div>
+<p id="regime" class="regime"></p><p class="caption">Target time shown in Beijing time (UTC+08). Origins are sampled every 25 hours, with gaps from common eligibility rules. Connecting lines guide the eye; they do not represent hourly predictions.</p>
+<div class="actions"><button id="download" type="button"><span aria-hidden="true">↓</span> Download this series <small>CSV</small></button><button id="values-toggle" class="text-button" type="button" aria-expanded="false" aria-controls="measured-values">View all measured values <span aria-hidden="true">→</span></button></div>
+<div id="measured-values" hidden><div class="table-scroll" tabindex="0" role="region" aria-label="Measured forecast values"><table><caption>All sampled targets for the selected configuration · concentrations in µg/m³</caption><thead><tr><th scope="col">Target time · Beijing</th><th scope="col">Observed</th><th scope="col">Forecast</th><th scope="col">Lower 10%</th><th scope="col">Upper 90%</th></tr></thead><tbody id="rows"></tbody></table></div></div>
+</div></section>
+<section class="notes" aria-label="Scientific findings">
+<article><p class="eyebrow">KEY FINDING</p><h2>More context helps.<br>It does not always win.</h2><p>Chronos-2 reached within 10% of its own 90-day MAE with 3 days at +1h and 7 days at +6h/+24h. At +24h, its pooled MAE was 58.43 with 30 days of context, versus 62.33 for global LightGBM and 76.44 for persistence.</p><p>Chronos’s 90-day context was worse at +6h and +24h. The 30-day comparison is descriptive, not an optimized deployment recommendation. Pretraining did not establish superior local-data efficiency.</p><a class="text-link" href="https://github.com/K2alyan/StationShift/blob/main/docs/FINDINGS.md">Read the full analysis <span aria-hidden="true">→</span></a></article>
+<article id="method"><p class="eyebrow">INTERPRETATION</p><h2>Context is different<br>from fitting data.</h2><p>Chronos uses rolling context without updating parameters. Global LightGBM learns from the other 11 stations; global+local adds a frozen pre-test target-station fitting window.</p><p>The curves compare allowed information windows, not identical total observations after one physical deployment. Beijing pretraining overlap remains uncertain.</p><a class="text-link" href="https://github.com/K2alyan/StationShift/blob/main/docs/PROTOCOL.md">How the evaluation works <span aria-hidden="true">→</span></a></article></section>
+<section class="calibration" aria-labelledby="calibration-title"><div><p class="eyebrow">CALIBRATION</p><h2 id="calibration-title">Average accuracy hides<br>extreme-event risk.</h2><p>Chronos-2 · 30-day context · +24h forecasts</p></div><div class="calibration-body"><div class="calibration-values"><div><b>67.7%</b><span>overall coverage</span></div><div><b>59.6%</b><span>high-PM coverage</span></div><div><b>−104.31</b><span>high-PM bias · µg/m³</span></div></div><p>Against a nominal 80% interval, Chronos substantially underpredicts many rapid high-PM events and its intervals are too narrow at longer horizons. High PM means targets above the development 90th percentile (168 µg/m³); no health or regulatory interpretation is intended.</p></div></section>
+<section class="project-details"><div id="data"><p class="eyebrow">DATA</p><p>Original UCI Beijing Multi-Site Air Quality dataset. Twelve stations, with common observed-history eligibility across all supported configurations.</p><a class="text-link" href="https://github.com/K2alyan/StationShift/blob/main/docs/DATASET.md">Dataset and provenance <span aria-hidden="true">→</span></a></div><div id="about"><p class="eyebrow">ABOUT</p><p>StationShift studies held-out station transfer and context budgets in one city, using one pretrained time-series model. This explorer reads saved predictions; it makes no live model calls.</p><a class="text-link" href="https://github.com/K2alyan/StationShift">Project code and measured results <span aria-hidden="true">→</span></a></div></section>
 </main>
-<footer>StationShift · Original UCI dataset · Chronos-2 + LightGBM · Saved predictions, no live model calls</footer>
+<footer><div class="footer-inner"><span class="brand">StationShift</span><p>Original UCI dataset · Chronos-2 + LightGBM · Saved predictions, no live model calls</p><nav aria-label="Footer navigation"><a href="#method">Method</a><a href="#data">Data</a><a href="https://github.com/K2alyan/StationShift">GitHub</a><a href="#about">About</a></nav></div></footer>
 </body></html>

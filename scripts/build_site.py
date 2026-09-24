@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 import pandas as pd
+from build_hero import build_hero
 
 ROOT=Path(__file__).resolve().parents[1]
 assert (ROOT/'docs/RESULTS.md').exists(), 'Final results must exist before building the explorer'
@@ -25,4 +26,5 @@ payload={'stations':sorted(p.station.unique()),'models':sorted(p.model.unique())
          'totalOrigins':int(p[['station','origin']].drop_duplicates().shape[0]),'threshold':168}
 site=ROOT/'site'; site.mkdir(exist_ok=True)
 (site/'data.json').write_text(json.dumps(payload,separators=(',',':'),allow_nan=False),encoding='utf-8')
+build_hero(payload,site/'assets/station-traces.svg')
 print('Exported',len(series),'measured series,',round((site/'data.json').stat().st_size/1e6,2),'MB')
